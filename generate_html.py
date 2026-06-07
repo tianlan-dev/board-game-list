@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -261,10 +262,10 @@ HTML_TEMPLATE = """<!doctype html>
     }}
 
     table {{
-      width: 100%;
+      width: max-content;
+      min-width: 100%;
       border-collapse: separate;
       border-spacing: 0;
-      min-width: 1180px;
     }}
 
     th,
@@ -279,16 +280,24 @@ HTML_TEMPLATE = """<!doctype html>
 
     th[data-key="gameName"],
     td[data-key="gameName"] {{
-      width: clamp(240px, 28vw, 420px);
-      max-width: clamp(240px, 28vw, 420px);
-      white-space: normal;
+      white-space: nowrap;
     }}
 
     th[data-key="players"],
     td[data-key="players"] {{
-      width: 132px;
-      max-width: 132px;
-      white-space: normal;
+      white-space: nowrap;
+    }}
+
+    th[data-key="year"],
+    td[data-key="year"],
+    th[data-key="weight"],
+    td[data-key="weight"],
+    th[data-key="bggRating"],
+    td[data-key="bggRating"],
+    th[data-key="userRating"],
+    td[data-key="userRating"] {{
+      text-align: center;
+      white-space: nowrap;
     }}
 
     th:last-child,
@@ -304,8 +313,14 @@ HTML_TEMPLATE = """<!doctype html>
       color: #2b2a27;
       font-size: 12px;
       font-weight: 720;
+      text-align: center;
       user-select: none;
       cursor: pointer;
+    }}
+
+    thead th[data-key="gameName"],
+    thead th[data-key="mechanisms"] {{
+      text-align: left;
     }}
 
     thead th.dragging {{
@@ -325,9 +340,60 @@ HTML_TEMPLATE = """<!doctype html>
       background: var(--accent-soft);
     }}
 
+    tbody tr.has-hidden-details {{
+      cursor: help;
+    }}
+
+    .hidden-details-tooltip {{
+      position: fixed;
+      z-index: 1000;
+      width: min(340px, calc(100vw - 28px));
+      max-height: min(420px, calc(100vh - 28px));
+      overflow: auto;
+      padding: 10px 12px;
+      border: 1px solid var(--line-strong);
+      border-radius: 8px;
+      background: #fff;
+      box-shadow: 0 16px 36px rgba(35, 34, 29, 0.18);
+      color: var(--text);
+      pointer-events: none;
+    }}
+
+    .hidden-details-tooltip[hidden] {{
+      display: none;
+    }}
+
+    .hidden-details-list {{
+      display: grid;
+      gap: 6px;
+      margin: 0;
+    }}
+
+    .hidden-details-item {{
+      display: grid;
+      grid-template-columns: minmax(72px, max-content) minmax(0, 1fr);
+      gap: 10px;
+      align-items: start;
+    }}
+
+    .hidden-details-label {{
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+    }}
+
+    .hidden-details-value {{
+      min-width: 0;
+      margin: 0;
+      color: var(--text);
+      font-size: 13px;
+      overflow-wrap: anywhere;
+      white-space: normal;
+    }}
+
     .sort-indicator {{
-      display: inline-block;
-      width: 1.1em;
+      position: absolute;
+      left: 4px;
       color: var(--accent);
       font-weight: 800;
     }}
@@ -344,8 +410,8 @@ HTML_TEMPLATE = """<!doctype html>
     .name-en {{
       font-weight: 650;
       display: inline;
-      overflow-wrap: anywhere;
       line-height: 1.28;
+      white-space: nowrap;
     }}
 
     .name-size-sm {{
@@ -362,10 +428,10 @@ HTML_TEMPLATE = """<!doctype html>
 
     .tags {{
       display: flex;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
       gap: 4px;
-      max-width: 380px;
-      white-space: normal;
+      max-width: none;
+      white-space: nowrap;
     }}
 
     .tag {{
@@ -379,6 +445,7 @@ HTML_TEMPLATE = """<!doctype html>
       font-size: 12px;
       line-height: 1.2;
       break-inside: avoid;
+      white-space: nowrap;
     }}
 
     .empty {{
@@ -529,6 +596,25 @@ HTML_TEMPLATE = """<!doctype html>
           </div>
         </details>
         <details class="filter-menu">
+          <summary id="weightFilterSummary">重度: All</summary>
+          <div class="filter-panel" id="weightFilterPanel"></div>
+        </details>
+        <details class="filter-menu">
+          <summary id="playerCountFilterSummary">支持人数: All</summary>
+          <div class="filter-panel" id="playerCountFilterPanel"></div>
+        </details>
+        <details class="filter-menu">
+          <summary id="userRatingFilterSummary">我的评分: Both</summary>
+          <div class="filter-panel">
+            <label class="filter-option"><input type="checkbox" data-filter="user-rating-present" checked>有评分</label>
+            <label class="filter-option"><input type="checkbox" data-filter="user-rating-null" checked>无评分</label>
+          </div>
+        </details>
+        <details class="filter-menu">
+          <summary id="statusFilterSummary">状态: All</summary>
+          <div class="filter-panel" id="statusFilterPanel"></div>
+        </details>
+        <details class="filter-menu">
           <summary id="mechanismFilterSummary">机制: All</summary>
           <div class="filter-panel" id="mechanismFilterPanel"></div>
         </details>
@@ -556,27 +642,54 @@ HTML_TEMPLATE = """<!doctype html>
     const payload = JSON.parse(document.getElementById("game-data").textContent);
     const games = Array.isArray(payload.games) ? payload.games : [];
     const mechanismLabels = payload.mechanismLabels || {{}};
-    const storageKey = "board-game-list-columns";
+    const bggCollectionUsername = String(payload.bggCollectionUsername || "").trim();
+    const storageKey = "board-game-list-columns-v2";
     const table = document.getElementById("gamesTable");
     const thead = table.querySelector("thead");
     const tbody = table.querySelector("tbody");
     const searchInput = document.getElementById("search");
     const summary = document.getElementById("summary");
     const overallStats = document.getElementById("overallStats");
+    const weightFilterPanel = document.getElementById("weightFilterPanel");
+    const playerCountFilterPanel = document.getElementById("playerCountFilterPanel");
+    const statusFilterPanel = document.getElementById("statusFilterPanel");
     const mechanismFilterPanel = document.getElementById("mechanismFilterPanel");
     const columnFilterPanel = document.getElementById("columnFilterPanel");
+    const hiddenDetailsTooltip = document.createElement("div");
+    hiddenDetailsTooltip.className = "hidden-details-tooltip";
+    hiddenDetailsTooltip.hidden = true;
+    document.body.appendChild(hiddenDetailsTooltip);
+    const defaultHiddenColumnKeys = new Set(["players", "playingTime", "age", "status"]);
+    const mobileVisibleColumnKeys = new Set(["bggRank", "id", "gameName"]);
+    const statusLabels = {{
+      owned: "拥有",
+      previouslyOwned: "曾拥有",
+      forTrade: "可交易",
+      want: "想要",
+      wantToPlay: "想玩",
+      wantToBuy: "想买",
+      wishlist: "愿望单",
+      preordered: "已预订"
+    }};
+    const weightClasses = [
+      {{ key: "heavy", label: "Heavy", range: "4.5-5" }},
+      {{ key: "mediumHeavy", label: "Medium Heavy", range: "4.0-4.4" }},
+      {{ key: "medium", label: "Medium", range: "3.0-3.9" }},
+      {{ key: "mediumLight", label: "Medium Light", range: "2.0-2.9" }},
+      {{ key: "light", label: "Light", range: "1.0-1.9" }}
+    ];
 
     const columns = [
       {{ key: "bggRank", label: "排名", type: "number", value: game => game.bggRank }},
       {{ key: "id", label: "ID", type: "number", value: game => game.id, render: renderId, locked: true }},
       {{ key: "gameName", label: "游戏名", type: "text", value: gameNameText, render: (value, game) => renderName(value, game, "name-en") }},
       {{ key: "year", label: "年份", type: "number", value: game => game.year }},
-      {{ key: "weight", label: "重度", type: "number", value: game => game.weight }},
+      {{ key: "weight", label: "重度", type: "number", value: game => game.weight, render: value => renderFixed(value, 3), text: value => fixedText(value, 3) }},
       {{ key: "players", label: "人数", type: "text", value: game => playerText(game.players) }},
       {{ key: "playingTime", label: "时长", type: "number", value: game => timeText(game.playingTime) }},
       {{ key: "age", label: "年龄", type: "number", value: game => ageText(game.age) }},
-      {{ key: "userRating", label: "我的评分", type: "number", value: game => game.userRating }},
-      {{ key: "bggRating", label: "BGG评分", type: "number", value: game => game.bggRating }},
+      {{ key: "bggRating", label: "BGG评分", type: "number", value: game => game.bggRating, render: value => renderFixed(value, 2), text: value => fixedText(value, 2) }},
+      {{ key: "userRating", label: "我的评分", type: "number", value: game => game.userRating, render: value => renderFixed(value, 1), text: value => fixedText(value, 1) }},
       {{ key: "bggAverageRating", label: "平均评分", type: "number", value: game => game.bggAverageRating }},
       {{ key: "status", label: "状态", type: "text", value: game => statusText(game.status), render: value => tags(value.split("、").filter(Boolean)) }},
       {{ key: "mechanisms", label: "机制", type: "text", value: game => mechanismText(game.mechanisms), render: value => tags(value.split("、").filter(Boolean)) }},
@@ -588,10 +701,16 @@ HTML_TEMPLATE = """<!doctype html>
     let sortState = {{ key: "bggRank", direction: "asc" }};
     let dragKey = null;
     let dragStarted = false;
+    let desktopColumnSelectionBeforeMobile = null;
+    let mobileMode = false;
 
+    buildWeightFilters();
+    buildPlayerCountFilters();
+    buildStatusFilters();
     buildMechanismFilters();
     buildColumnFilters();
-    const filterInputs = [...document.querySelectorAll("[data-filter], [data-mechanism-filter], [data-column-filter]")];
+    const filterInputs = [...document.querySelectorAll("[data-filter], [data-weight-filter], [data-player-count-filter], [data-status-filter], [data-mechanism-filter], [data-column-filter]")];
+    const filterMenus = [...document.querySelectorAll(".filter-menu")];
 
     document.getElementById("printPage").addEventListener("click", () => window.print());
     document.getElementById("resetColumns").addEventListener("click", () => {{
@@ -600,16 +719,30 @@ HTML_TEMPLATE = """<!doctype html>
       render();
     }});
     searchInput.addEventListener("input", render);
+    window.matchMedia("(max-width: 760px)").addEventListener("change", syncResponsiveColumnSelection);
     filterInputs.forEach(input => input.addEventListener("change", () => {{
       updateFilterSummaries();
       updateColumnFilterAvailability();
       render();
     }}));
+    filterMenus.forEach(menu => menu.addEventListener("toggle", () => {{
+      if (!menu.open) return;
+      filterMenus.forEach(otherMenu => {{
+        if (otherMenu !== menu) {{
+          otherMenu.open = false;
+        }}
+      }});
+    }}));
+    document.addEventListener("pointerdown", event => {{
+      if (!event.target.closest(".filter-menu")) {{
+        closeFilterMenus();
+      }}
+    }});
     updateFilterSummaries();
     updateColumnFilterAvailability();
     renderOverallStats();
+    syncResponsiveColumnSelection();
 
-    render();
 
     function loadColumnOrder() {{
       const fallback = columns.map(column => column.key);
@@ -628,6 +761,34 @@ HTML_TEMPLATE = """<!doctype html>
       localStorage.setItem(storageKey, JSON.stringify(columnOrder));
     }}
 
+    function buildWeightFilters() {{
+      weightFilterPanel.replaceChildren(...weightClasses.map(weightClass => {{
+        const option = document.createElement("label");
+        option.className = "filter-option";
+        option.innerHTML = `<input type="checkbox" data-weight-filter value="${{escapeHtml(weightClass.key)}}">${{escapeHtml(weightClass.label)}} <span class="empty">(${{escapeHtml(weightClass.range)}})</span>`;
+        return option;
+      }}));
+    }}
+
+    function buildPlayerCountFilters() {{
+      const maxPlayers = [...new Set(games.map(game => game.players && game.players.max).filter(value => Number.isInteger(value)))].sort((a, b) => a - b);
+      playerCountFilterPanel.replaceChildren(...maxPlayers.map(max => {{
+        const option = document.createElement("label");
+        option.className = "filter-option";
+        option.innerHTML = `<input type="checkbox" data-player-count-filter value="${{escapeHtml(String(max))}}">Up to ${{escapeHtml(String(max))}}`;
+        return option;
+      }}));
+    }}
+
+    function buildStatusFilters() {{
+      statusFilterPanel.replaceChildren(...Object.entries(statusLabels).map(([key, label]) => {{
+        const option = document.createElement("label");
+        option.className = "filter-option";
+        option.innerHTML = `<input type="checkbox" data-status-filter value="${{escapeHtml(key)}}">${{escapeHtml(label)}}`;
+        return option;
+      }}));
+    }}
+
     function buildMechanismFilters() {{
       mechanismFilterPanel.replaceChildren(...Object.entries(mechanismLabels).map(([key, label]) => {{
         const option = document.createElement("label");
@@ -639,9 +800,13 @@ HTML_TEMPLATE = """<!doctype html>
 
     function buildColumnFilters() {{
       columnFilterPanel.replaceChildren(...columns.map(column => {{
+        const dataAvailable = hasColumnData(column);
+        const checked = column.locked || (dataAvailable && !defaultHiddenColumnKeys.has(column.key));
+        const disabled = column.locked || !dataAvailable;
         const option = document.createElement("label");
         option.className = "filter-option";
-        option.innerHTML = `<input type="checkbox" data-column-filter="${{escapeHtml(column.key)}}" value="${{escapeHtml(column.key)}}" checked ${{column.locked ? "disabled" : ""}}>${{escapeHtml(column.label)}}`;
+        option.classList.toggle("muted", !dataAvailable);
+        option.innerHTML = `<input type="checkbox" data-column-filter="${{escapeHtml(column.key)}}" value="${{escapeHtml(column.key)}}" ${{checked ? "checked" : ""}} ${{disabled ? "disabled" : ""}}>${{escapeHtml(column.label)}}`;
         return option;
       }}));
     }}
@@ -651,6 +816,22 @@ HTML_TEMPLATE = """<!doctype html>
       updatePairSummary("bggFilterSummary", "In BGG", "bgg-true", "In BGG", "bgg-false", "Not in BGG");
       updatePairSummary("idFilterSummary", "ID", "id-present", "Has ID", "id-null", "No ID");
       updatePairSummary("rankFilterSummary", "Rank", "rank-present", "Has Rank", "rank-null", "No Rank");
+      updatePairSummary("userRatingFilterSummary", "我的评分", "user-rating-present", "有评分", "user-rating-null", "无评分");
+
+      const selectedWeightLabels = selectedWeightClasses().map(key => weightClasses.find(item => item.key === key)?.label || key);
+      const weightSummary = document.getElementById("weightFilterSummary");
+      weightSummary.textContent = selectedWeightLabels.length ? `重度: ${{selectedWeightLabels.length}}` : "重度: All";
+      weightSummary.title = selectedWeightLabels.join("、") || "All weights";
+
+      const selectedPlayerCounts = selectedPlayerMaxCounts();
+      const playerCountSummary = document.getElementById("playerCountFilterSummary");
+      playerCountSummary.textContent = selectedPlayerCounts.length ? `支持人数: ${{selectedPlayerCounts.length}}` : "支持人数: All";
+      playerCountSummary.title = selectedPlayerCounts.length ? selectedPlayerCounts.map(count => `Up to ${{count}}`).join("、") : "All player counts";
+
+      const selectedStatusLabels = selectedStatuses().map(key => statusLabels[key] || key);
+      const statusSummary = document.getElementById("statusFilterSummary");
+      statusSummary.textContent = selectedStatusLabels.length ? `状态: ${{selectedStatusLabels.length}}` : "状态: All";
+      statusSummary.title = selectedStatusLabels.join("、") || "All statuses";
 
       const selected = selectedMechanisms().map(key => mechanismLabels[key] || key);
       const mechanismSummary = document.getElementById("mechanismFilterSummary");
@@ -682,24 +863,53 @@ HTML_TEMPLATE = """<!doctype html>
       return new Set([...document.querySelectorAll("[data-column-filter]:checked")].map(input => input.value));
     }}
 
+    function setColumnSelection(keys) {{
+      document.querySelectorAll("[data-column-filter]").forEach(input => {{
+        input.checked = keys.has(input.value);
+      }});
+    }}
+
+    function syncResponsiveColumnSelection() {{
+      const isMobile = window.matchMedia("(max-width: 760px)").matches;
+      if (isMobile && !mobileMode) {{
+        desktopColumnSelectionBeforeMobile = visibleColumnKeys();
+        setColumnSelection(mobileVisibleColumnKeys);
+        mobileMode = true;
+      }} else if (!isMobile && mobileMode) {{
+        if (desktopColumnSelectionBeforeMobile) {{
+          setColumnSelection(desktopColumnSelectionBeforeMobile);
+        }}
+        desktopColumnSelectionBeforeMobile = null;
+        mobileMode = false;
+      }}
+      updateFilterSummaries();
+      render();
+    }}
+
     function updateColumnFilterAvailability() {{
       const dataColumns = new Set(columns.filter(column => hasColumnData(column)).map(column => column.key));
       document.querySelectorAll("[data-column-filter]").forEach(input => {{
         const column = columns.find(item => item.key === input.value);
         if (column && !column.locked) {{
-          input.disabled = !dataColumns.has(input.value);
-          input.closest(".filter-option").classList.toggle("muted", input.disabled);
+          const disabled = !dataColumns.has(input.value);
+          input.disabled = disabled;
+          if (disabled) {{
+            input.checked = false;
+          }}
+          input.closest(".filter-option").classList.toggle("muted", disabled);
         }}
       }});
     }}
 
     function render() {{
       const visibleKeys = visibleColumnKeys();
-      const visibleColumns = orderedColumns().filter(column => hasColumnData(column) && (column.locked || visibleKeys.has(column.key)));
+      const visibleColumns = orderedColumns().filter(column => hasColumnData(column) && visibleKeys.has(column.key));
       const rows = filteredGames();
       rows.sort(compareBy(sortState.key, sortState.direction));
       renderHead(visibleColumns);
-      renderBody(rows, visibleColumns);
+      renderBody(rows, visibleColumns, visibleKeys);
+      applyContentColumnWidths(visibleColumns);
+      hideHiddenDetailsTooltip();
       summary.textContent = `共 ${{rows.length}} / ${{games.length}} 个游戏` + (payload.lastUpdated ? `，数据更新时间：${{payload.lastUpdated}}` : "");
     }}
 
@@ -724,6 +934,18 @@ HTML_TEMPLATE = """<!doctype html>
       return [...document.querySelectorAll("[data-mechanism-filter]:checked")].map(input => input.value);
     }}
 
+    function selectedWeightClasses() {{
+      return [...document.querySelectorAll("[data-weight-filter]:checked")].map(input => input.value);
+    }}
+
+    function selectedPlayerMaxCounts() {{
+      return [...document.querySelectorAll("[data-player-count-filter]:checked")].map(input => Number(input.value)).filter(Number.isInteger);
+    }}
+
+    function selectedStatuses() {{
+      return [...document.querySelectorAll("[data-status-filter]:checked")].map(input => input.value);
+    }}
+
     function matchesFilters(game, filters) {{
       const inCollection = game.collection === true;
       if (inCollection && !filters["collection-true"]) return false;
@@ -741,12 +963,44 @@ HTML_TEMPLATE = """<!doctype html>
       if (hasRank && !filters["rank-present"]) return false;
       if (!hasRank && !filters["rank-null"]) return false;
 
+      const hasRating = hasUserRating(game);
+      if (hasRating && !filters["user-rating-present"]) return false;
+      if (!hasRating && !filters["user-rating-null"]) return false;
+
+      const selectedWeights = selectedWeightClasses();
+      const weightClass = weightClassFor(game.weight);
+      if (selectedWeights.length && (!weightClass || !selectedWeights.includes(weightClass))) {{
+        return false;
+      }}
+
+      const selectedPlayerCounts = selectedPlayerMaxCounts();
+      if (selectedPlayerCounts.length && !selectedPlayerCounts.includes(game.players && game.players.max)) {{
+        return false;
+      }}
+
+      const statuses = selectedStatuses();
+      if (statuses.length && !statuses.every(key => game.status && game.status[key] === true)) {{
+        return false;
+      }}
+
       const mechanisms = selectedMechanisms();
       if (mechanisms.length && !mechanisms.every(key => game.mechanisms && game.mechanisms[key] === true)) {{
         return false;
       }}
 
       return true;
+    }}
+
+    function weightClassFor(weight) {{
+      if (!present(weight)) return "";
+      const value = Number(weight);
+      if (!Number.isFinite(value)) return "";
+      if (value >= 4.5 && value <= 5) return "heavy";
+      if (value >= 4.0 && value < 4.5) return "mediumHeavy";
+      if (value >= 3.0 && value < 4.0) return "medium";
+      if (value >= 2.0 && value < 3.0) return "mediumLight";
+      if (value >= 1.0 && value < 2.0) return "light";
+      return "";
     }}
 
     function searchableText(game) {{
@@ -762,7 +1016,7 @@ HTML_TEMPLATE = """<!doctype html>
         th.draggable = true;
         th.dataset.key = column.key;
         th.title = "点击排序，拖拽调整列位置";
-        th.innerHTML = `<span class="sort-indicator">${{sortMark(column.key)}}</span>${{escapeHtml(column.label)}}`;
+        th.innerHTML = `<span class="sort-indicator">${{sortMark(column.key)}}</span><span class="th-label">${{escapeHtml(column.label)}}</span>`;
         th.addEventListener("click", () => {{
           if (dragStarted) {{
             dragStarted = false;
@@ -807,7 +1061,7 @@ HTML_TEMPLATE = """<!doctype html>
       thead.replaceChildren(row);
     }}
 
-    function renderBody(rows, visibleColumns) {{
+    function renderBody(rows, visibleColumns, visibleKeys) {{
       const fragment = document.createDocumentFragment();
       rows.forEach(game => {{
         const row = document.createElement("tr");
@@ -821,9 +1075,94 @@ HTML_TEMPLATE = """<!doctype html>
           td.innerHTML = column.render ? column.render(value, game) : renderValue(value);
           row.appendChild(td);
         }});
+        const hiddenDetails = hiddenDetailsForGame(game, visibleKeys);
+        if (hiddenDetails.length) {{
+          row.classList.add("has-hidden-details");
+          const hiddenDetailsText = hiddenDetails.map(item => `${{item.label}}: ${{item.value}}`).join("\\n");
+          row.title = hiddenDetailsText;
+          row.setAttribute("aria-label", hiddenDetailsText);
+          row.addEventListener("pointerenter", event => showHiddenDetailsTooltip(event, hiddenDetails));
+          row.addEventListener("pointermove", positionHiddenDetailsTooltip);
+          row.addEventListener("pointerleave", hideHiddenDetailsTooltip);
+          row.addEventListener("mouseenter", event => showHiddenDetailsTooltip(event, hiddenDetails));
+          row.addEventListener("mousemove", positionHiddenDetailsTooltip);
+          row.addEventListener("mouseleave", hideHiddenDetailsTooltip);
+        }}
         fragment.appendChild(row);
       }});
       tbody.replaceChildren(fragment);
+    }}
+
+    function hiddenDetailsForGame(game, visibleKeys) {{
+      return orderedColumns().flatMap(column => {{
+        const input = document.querySelector(`[data-column-filter="${{column.key}}"]`);
+        if (!input || input.disabled || input.checked || column.locked || visibleKeys.has(column.key) || !hasColumnData(column)) {{
+          return [];
+        }}
+        const value = column.value(game);
+        if (!present(value)) {{
+          return [];
+        }}
+        return [{{ label: column.label, value: columnText(column, value, game) }}];
+      }});
+    }}
+
+    function applyContentColumnWidths(visibleColumns) {{
+      visibleColumns.forEach(column => {{
+        const cells = [thead.querySelector(`th[data-key="${{column.key}}"]`), ...tbody.querySelectorAll(`td[data-key="${{column.key}}"]`)].filter(Boolean);
+        cells.forEach(cell => {{
+          cell.style.width = "";
+          cell.style.minWidth = "";
+          cell.style.maxWidth = "";
+        }});
+        const width = Math.ceil(Math.max(...cells.map(cell => cell.scrollWidth)));
+        cells.forEach(cell => {{
+          cell.style.width = `${{width}}px`;
+          cell.style.minWidth = `${{width}}px`;
+          cell.style.maxWidth = `${{width}}px`;
+        }});
+      }});
+    }}
+
+    function showHiddenDetailsTooltip(event, details) {{
+      hiddenDetailsTooltip.innerHTML = `
+        <dl class="hidden-details-list">
+          ${{details.map(item => `
+            <div class="hidden-details-item">
+              <dt class="hidden-details-label">${{escapeHtml(item.label)}}</dt>
+              <dd class="hidden-details-value">${{escapeHtml(item.value)}}</dd>
+            </div>
+          `).join("")}}
+        </dl>
+      `;
+      hiddenDetailsTooltip.hidden = false;
+      positionHiddenDetailsTooltip(event);
+    }}
+
+    function positionHiddenDetailsTooltip(event) {{
+      if (hiddenDetailsTooltip.hidden) return;
+      const offset = 14;
+      const rect = hiddenDetailsTooltip.getBoundingClientRect();
+      let left = event.clientX + offset;
+      let top = event.clientY + offset;
+      if (left + rect.width > window.innerWidth - offset) {{
+        left = Math.max(offset, event.clientX - rect.width - offset);
+      }}
+      if (top + rect.height > window.innerHeight - offset) {{
+        top = Math.max(offset, window.innerHeight - rect.height - offset);
+      }}
+      hiddenDetailsTooltip.style.left = `${{left}}px`;
+      hiddenDetailsTooltip.style.top = `${{top}}px`;
+    }}
+
+    function hideHiddenDetailsTooltip() {{
+      hiddenDetailsTooltip.hidden = true;
+    }}
+
+    function closeFilterMenus() {{
+      filterMenus.forEach(menu => {{
+        menu.open = false;
+      }});
     }}
 
     function moveColumn(sourceKey, targetKey) {{
@@ -870,9 +1209,13 @@ HTML_TEMPLATE = """<!doctype html>
     function renderOverallStats() {{
       const collectionGames = games.filter(game => game.collection === true);
       const playedCollectionGames = collectionGames.filter(hasUserRating);
+      const ownerStat = bggCollectionUsername
+        ? `<span class="stat">BGG Collection 用户 <strong>${{escapeHtml(bggCollectionUsername)}}</strong></span>`
+        : "";
       overallStats.innerHTML = `
-        <span class="stat">记录的桌游总数 <strong>${{games.length}}</strong></span>
-        <span class="stat">BGG collection 已玩/总数 <strong>${{playedCollectionGames.length}} / ${{collectionGames.length}}</strong></span>
+        ${{ownerStat}}
+        <span class="stat">本地记录的桌游总数 <strong>${{games.length}}</strong></span>
+        <span class="stat">BGG Collection 已玩/总数 <strong>${{playedCollectionGames.length}} / ${{collectionGames.length}}</strong></span>
       `;
     }}
 
@@ -881,6 +1224,24 @@ HTML_TEMPLATE = """<!doctype html>
         return '<span class="empty">-</span>';
       }}
       return escapeHtml(String(value));
+    }}
+
+    function renderFixed(value, digits) {{
+      const text = fixedText(value, digits);
+      return present(text) ? escapeHtml(text) : '<span class="empty">-</span>';
+    }}
+
+    function fixedText(value, digits) {{
+      if (!present(value)) return "";
+      const number = Number(value);
+      return Number.isFinite(number) ? number.toFixed(digits) : "";
+    }}
+
+    function columnText(column, value, game) {{
+      if (column.text) {{
+        return column.text(value, game);
+      }}
+      return String(value);
     }}
 
     function renderId(value) {{
@@ -937,10 +1298,7 @@ HTML_TEMPLATE = """<!doctype html>
       if (!players || typeof players !== "object") return "";
       const min = players.min;
       const max = players.max;
-      const range = present(min) && present(max) ? (min === max ? String(min) : `${{min}}-${{max}}`) : "";
-      const best = Array.isArray(players.best) && players.best.length ? `最佳 ${{players.best.join("/")}}` : "";
-      const recommended = Array.isArray(players.recommended) && players.recommended.length ? `推荐 ${{players.recommended.join("/")}}` : "";
-      return [range, best, recommended].filter(Boolean).join("；");
+      return present(min) && present(max) ? (min === max ? String(min) : `${{min}}-${{max}}`) : "";
     }}
 
     function timeText(time) {{
@@ -960,17 +1318,7 @@ HTML_TEMPLATE = """<!doctype html>
 
     function statusText(status) {{
       if (!status || typeof status !== "object") return "";
-      const labels = {{
-        owned: "拥有",
-        previouslyOwned: "曾拥有",
-        forTrade: "可交易",
-        want: "想要",
-        wantToPlay: "想玩",
-        wantToBuy: "想买",
-        wishlist: "愿望单",
-        preordered: "已预订"
-      }};
-      return Object.entries(labels).filter(([key]) => status[key]).map(([, label]) => label).join("、");
+      return Object.entries(statusLabels).filter(([key]) => status[key]).map(([, label]) => label).join("、");
     }}
 
     function mechanismText(mechanisms) {{
@@ -1009,6 +1357,26 @@ def load_data(path: Path) -> dict[str, Any]:
     raise ValueError("data file must be a games array or an object with a games array")
 
 
+def load_auth_username(path: Path) -> str | None:
+    if not path.exists():
+        return None
+    with path.open("r", encoding="utf-8") as f:
+        data = json.load(f)
+    username = data.get("username") if isinstance(data, dict) else None
+    if isinstance(username, str) and username.strip():
+        return username.strip()
+    return None
+
+
+def resolve_bgg_username(value: str | None, auth_file: Path) -> str | None:
+    if value and value.strip():
+        return value.strip()
+    env_value = os.environ.get("BGG_USERNAME")
+    if env_value and env_value.strip():
+        return env_value.strip()
+    return load_auth_username(auth_file)
+
+
 def html_escape(value: str) -> str:
     return (
         value.replace("&", "&amp;")
@@ -1019,11 +1387,12 @@ def html_escape(value: str) -> str:
     )
 
 
-def build_html(data: dict[str, Any], title: str) -> str:
+def build_html(data: dict[str, Any], title: str, bgg_collection_username: str | None = None) -> str:
     payload = {
         "lastUpdated": data.get("lastUpdated"),
         "games": data.get("games", []),
         "mechanismLabels": MECHANISM_LABELS,
+        "bggCollectionUsername": bgg_collection_username,
     }
     encoded_payload = json.dumps(payload, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     generated_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
@@ -1039,6 +1408,8 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--data", default="data.json", help="输入 JSON 文件，默认 data.json")
     parser.add_argument("--output", default="index.html", help="输出 HTML 文件，默认 index.html")
     parser.add_argument("--title", default="桌游列表", help="网页标题")
+    parser.add_argument("--auth-file", default="bgg_auth.json", help="读取 BGG 用户名的本地配置文件，默认 bgg_auth.json")
+    parser.add_argument("--bgg-username", help="BGG Collection 所属用户名；也可用 BGG_USERNAME 环境变量")
     return parser
 
 
@@ -1046,7 +1417,8 @@ def main() -> int:
     parser = build_parser()
     args = parser.parse_args()
     data = load_data(Path(args.data))
-    html = build_html(data, args.title)
+    bgg_username = resolve_bgg_username(args.bgg_username, Path(args.auth_file))
+    html = build_html(data, args.title, bgg_username)
     output = Path(args.output)
     output.write_text(html, encoding="utf-8")
     print(f"已生成 {output}，共 {len(data.get('games', []))} 个游戏")
