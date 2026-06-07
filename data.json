@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-26T17:56:01Z",
+  "lastUpdated": "2026-06-07T16:36:34Z",
   "games": [
     {
       "id": 224517,
@@ -7,7 +7,7 @@
       "nameEn": "Brass: Birmingham",
       "nameZh": "工业革命：伯明翰",
       "year": 2018,
-      "weight": 3.8621,
+      "weight": 3.862,
       "players": {
         "min": 2,
         "max": 4,
@@ -30,7 +30,7 @@
         "max": 120
       },
       "bggRank": 1,
-      "bggRating": 8.3933,
+      "bggRating": 8.3937,
       "userRating": 8.0,
       "collection": true,
       "bgg": true,
@@ -60,7 +60,7 @@
       "nameEn": "Ark Nova",
       "nameZh": "方舟动物园",
       "year": 2021,
-      "weight": 3.7967,
+      "weight": 3.7972,
       "players": {
         "min": 1,
         "max": 4,
@@ -82,7 +82,7 @@
         "max": 150
       },
       "bggRank": 2,
-      "bggRating": 8.3543,
+      "bggRating": 8.3541,
       "userRating": 9.0,
       "collection": true,
       "bgg": true,
@@ -135,7 +135,7 @@
         "max": 60
       },
       "bggRank": 3,
-      "bggRating": 8.3461,
+      "bggRating": 8.345,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -186,7 +186,7 @@
         "max": 120
       },
       "bggRank": 4,
-      "bggRating": 8.2969,
+      "bggRating": 8.296,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -216,7 +216,7 @@
       "nameEn": "Dune: Imperium – Uprising",
       "nameZh": "沙丘：帝国 - 起义",
       "year": 2023,
-      "weight": 3.5224,
+      "weight": 3.5197,
       "players": {
         "min": 1,
         "max": 6,
@@ -240,7 +240,7 @@
         "max": 120
       },
       "bggRank": 5,
-      "bggRating": 8.2382,
+      "bggRating": 8.243,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -270,7 +270,7 @@
       "nameEn": "Dune: Imperium",
       "nameZh": "沙丘：帝国",
       "year": 2020,
-      "weight": 3.0772,
+      "weight": 3.078,
       "players": {
         "min": 1,
         "max": 4,
@@ -324,7 +324,7 @@
       "nameEn": "Twilight Imperium: Fourth Edition",
       "nameZh": "帝国曙光 第4版",
       "year": 2017,
-      "weight": 4.3534,
+      "weight": 4.3536,
       "players": {
         "min": 3,
         "max": 6,
@@ -347,7 +347,7 @@
         "max": 480
       },
       "bggRank": 7,
-      "bggRating": 8.2186,
+      "bggRating": 8.218,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -377,7 +377,7 @@
       "nameEn": "Terraforming Mars",
       "nameZh": "殖民火星",
       "year": 2016,
-      "weight": 3.272,
+      "weight": 3.2725,
       "players": {
         "min": 1,
         "max": 5,
@@ -400,7 +400,7 @@
         "max": 120
       },
       "bggRank": 9,
-      "bggRating": 8.1852,
+      "bggRating": 8.1835,
       "userRating": 9.0,
       "collection": true,
       "bgg": true,
@@ -431,7 +431,7 @@
       "nameEn": "Gloomhaven: Jaws of the Lion",
       "nameZh": "幽港迷城：雄狮蛮颚",
       "year": 2020,
-      "weight": 3.6398,
+      "weight": 3.6392,
       "players": {
         "min": 1,
         "max": 4,
@@ -454,7 +454,7 @@
         "max": 120
       },
       "bggRank": 12,
-      "bggRating": 8.0959,
+      "bggRating": 8.0952,
       "userRating": 6.0,
       "collection": true,
       "bgg": true,
@@ -482,7 +482,7 @@
       "nameEn": "Gaia Project",
       "nameZh": "蓋亞計畫",
       "year": 2017,
-      "weight": 4.4028,
+      "weight": 4.4021,
       "players": {
         "min": 1,
         "max": 4,
@@ -506,7 +506,7 @@
         "max": 150
       },
       "bggRank": 13,
-      "bggRating": 8.088,
+      "bggRating": 8.0881,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -536,7 +536,7 @@
       "nameEn": "Twilight Struggle",
       "nameZh": "冷战热斗 (冷戰熱鬥)",
       "year": 2005,
-      "weight": 3.6152,
+      "weight": 3.6153,
       "players": {
         "min": 2,
         "max": 2,
@@ -556,7 +556,7 @@
         "max": 180
       },
       "bggRank": 14,
-      "bggRating": 8.0404,
+      "bggRating": 8.0399,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -572,6 +572,56 @@
         "forTrade": false,
         "want": false,
         "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 418059,
+      "alias": "",
+      "nameEn": "SETI: Search for Extraterrestrial Intelligence",
+      "nameZh": "星空觅迹：探寻地外文明计划",
+      "year": 2024,
+      "weight": 3.8287,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 40,
+        "max": 160
+      },
+      "bggRank": 15,
+      "bggRating": 8.0356,
+      "userRating": 5.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "engineBuilding": true,
+        "cardDriven": true,
+        "resourceManagement": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
         "wantToBuy": false,
         "wishlist": false,
         "preordered": false
@@ -604,8 +654,8 @@
         "min": 30,
         "max": 90
       },
-      "bggRank": 15,
-      "bggRating": 8.0318,
+      "bggRank": 17,
+      "bggRating": 8.0321,
       "userRating": 5.0,
       "collection": true,
       "bgg": true,
@@ -629,62 +679,12 @@
       }
     },
     {
-      "id": 418059,
-      "alias": "",
-      "nameEn": "SETI: Search for Extraterrestrial Intelligence",
-      "nameZh": "星空觅迹：探寻地外文明计划",
-      "year": 2024,
-      "weight": 3.8296,
-      "players": {
-        "min": 1,
-        "max": 4,
-        "best": [
-          3
-        ],
-        "recommended": [
-          1,
-          2,
-          3,
-          4
-        ]
-      },
-      "age": {
-        "min": 14,
-        "recommended": null
-      },
-      "playingTime": {
-        "min": 40,
-        "max": 160
-      },
-      "bggRank": 16,
-      "bggRating": 8.0304,
-      "userRating": 5.0,
-      "collection": true,
-      "bgg": true,
-      "mechanisms": {
-        "areaControl": true,
-        "engineBuilding": true,
-        "cardDriven": true,
-        "resourceManagement": true
-      },
-      "status": {
-        "owned": false,
-        "previouslyOwned": false,
-        "forTrade": false,
-        "want": false,
-        "wantToPlay": false,
-        "wantToBuy": false,
-        "wishlist": false,
-        "preordered": false
-      }
-    },
-    {
       "id": 182028,
       "alias": "",
       "nameEn": "Through the Ages: A New Story of Civilization",
       "nameZh": "历史巨轮：人类文明新篇章",
       "year": 2015,
-      "weight": 4.4425,
+      "weight": 4.4434,
       "players": {
         "min": 2,
         "max": 4,
@@ -706,7 +706,7 @@
         "max": 120
       },
       "bggRank": 18,
-      "bggRating": 8.0133,
+      "bggRating": 8.0115,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -736,7 +736,7 @@
       "nameEn": "Great Western Trail",
       "nameZh": "大西部之路",
       "year": 2016,
-      "weight": 3.6943,
+      "weight": 3.695,
       "players": {
         "min": 2,
         "max": 4,
@@ -757,8 +757,8 @@
         "min": 75,
         "max": 150
       },
-      "bggRank": 20,
-      "bggRating": 7.9738,
+      "bggRank": 21,
+      "bggRating": 7.9726,
       "userRating": 6.0,
       "collection": true,
       "bgg": true,
@@ -786,7 +786,7 @@
       "nameEn": "Brass: Lancashire",
       "nameZh": "工業革命",
       "year": 2007,
-      "weight": 3.8436,
+      "weight": 3.8438,
       "players": {
         "min": 2,
         "max": 4,
@@ -808,7 +808,7 @@
         "max": 120
       },
       "bggRank": 22,
-      "bggRating": 7.9607,
+      "bggRating": 7.9598,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -838,7 +838,7 @@
       "nameEn": "Nemesis",
       "nameZh": "復仇女神號",
       "year": 2018,
-      "weight": 3.4874,
+      "weight": 3.4878,
       "players": {
         "min": 1,
         "max": 5,
@@ -863,7 +863,7 @@
         "max": 180
       },
       "bggRank": 25,
-      "bggRating": 7.9501,
+      "bggRating": 7.949,
       "userRating": 8.0,
       "collection": true,
       "bgg": true,
@@ -890,7 +890,7 @@
       "nameEn": "Scythe",
       "nameZh": "大鎌戦役",
       "year": 2016,
-      "weight": 3.453,
+      "weight": 3.4536,
       "players": {
         "min": 1,
         "max": 5,
@@ -914,7 +914,7 @@
         "max": 115
       },
       "bggRank": 26,
-      "bggRating": 7.9447,
+      "bggRating": 7.9442,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -966,7 +966,7 @@
         "max": 120
       },
       "bggRank": 27,
-      "bggRating": 7.9411,
+      "bggRating": 7.9405,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -996,7 +996,7 @@
       "nameEn": "Great Western Trail: Second Edition",
       "nameZh": "大西部開拓者",
       "year": 2021,
-      "weight": 3.7041,
+      "weight": 3.7028,
       "players": {
         "min": 1,
         "max": 4,
@@ -1019,7 +1019,7 @@
         "max": 150
       },
       "bggRank": 31,
-      "bggRating": 7.9053,
+      "bggRating": 7.9041,
       "userRating": 7.0,
       "collection": true,
       "bgg": true,
@@ -1047,7 +1047,7 @@
       "nameEn": "Root",
       "nameZh": "茂林源記",
       "year": 2018,
-      "weight": 3.8404,
+      "weight": 3.8409,
       "players": {
         "min": 2,
         "max": 4,
@@ -1068,7 +1068,7 @@
         "max": 90
       },
       "bggRank": 34,
-      "bggRating": 7.8814,
+      "bggRating": 7.8821,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -1117,8 +1117,8 @@
         "min": 60,
         "max": 150
       },
-      "bggRank": 35,
-      "bggRating": 7.8598,
+      "bggRank": 36,
+      "bggRating": 7.8588,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -1146,7 +1146,7 @@
       "nameEn": "Wingspan",
       "nameZh": "展翅翱翔",
       "year": 2019,
-      "weight": 2.4799,
+      "weight": 2.4815,
       "players": {
         "min": 1,
         "max": 5,
@@ -1169,7 +1169,7 @@
         "max": 70
       },
       "bggRank": 38,
-      "bggRating": 7.8455,
+      "bggRating": 7.8449,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -1198,7 +1198,7 @@
       "nameEn": "Barrage",
       "nameZh": "强国争坝",
       "year": 2019,
-      "weight": 4.1141,
+      "weight": 4.1147,
       "players": {
         "min": 1,
         "max": 4,
@@ -1219,8 +1219,8 @@
         "min": 90,
         "max": 180
       },
-      "bggRank": 40,
-      "bggRating": 7.8374,
+      "bggRank": 39,
+      "bggRating": 7.8369,
       "userRating": 6.0,
       "collection": true,
       "bgg": true,
@@ -1249,7 +1249,7 @@
       "nameEn": "Hegemony: Lead Your Class to Victory",
       "nameZh": "領國者：帶領你的人民邁向勝利",
       "year": 2023,
-      "weight": 4.2562,
+      "weight": 4.2525,
       "players": {
         "min": 2,
         "max": 4,
@@ -1271,7 +1271,7 @@
         "max": 180
       },
       "bggRank": 41,
-      "bggRating": 7.823,
+      "bggRating": 7.8237,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -1298,7 +1298,7 @@
       "nameEn": "Kanban EV",
       "nameZh": "看板EV",
       "year": 2020,
-      "weight": 4.2902,
+      "weight": 4.2926,
       "players": {
         "min": 1,
         "max": 4,
@@ -1321,7 +1321,7 @@
         "max": 180
       },
       "bggRank": 42,
-      "bggRating": 7.8076,
+      "bggRating": 7.8065,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -1348,7 +1348,7 @@
       "nameEn": "Everdell",
       "nameZh": "仙境幽谷",
       "year": 2018,
-      "weight": 2.8337,
+      "weight": 2.834,
       "players": {
         "min": 1,
         "max": 4,
@@ -1371,7 +1371,7 @@
         "max": 80
       },
       "bggRank": 43,
-      "bggRating": 7.8065,
+      "bggRating": 7.8056,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -1401,7 +1401,7 @@
       "nameEn": "Viticulture Essential Edition",
       "nameZh": "葡萄酒庄园精华版",
       "year": 2015,
-      "weight": 2.9027,
+      "weight": 2.9034,
       "players": {
         "min": 1,
         "max": 6,
@@ -1425,8 +1425,8 @@
         "min": 45,
         "max": 90
       },
-      "bggRank": 45,
-      "bggRating": 7.8058,
+      "bggRank": 44,
+      "bggRating": 7.8049,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -1454,7 +1454,7 @@
       "nameEn": "Heat: Pedal to the Metal",
       "nameZh": "火爆狂飙：全速前进",
       "year": 2022,
-      "weight": 2.2024,
+      "weight": 2.2028,
       "players": {
         "min": 1,
         "max": 6,
@@ -1480,7 +1480,7 @@
         "max": 60
       },
       "bggRank": 47,
-      "bggRating": 7.7955,
+      "bggRating": 7.7953,
       "userRating": 5.0,
       "collection": true,
       "bgg": true,
@@ -1507,7 +1507,7 @@
       "nameEn": "Food Chain Magnate",
       "nameZh": "快餐大亨",
       "year": 2015,
-      "weight": 4.1848,
+      "weight": 4.1846,
       "players": {
         "min": 2,
         "max": 5,
@@ -1531,7 +1531,7 @@
         "max": 240
       },
       "bggRank": 50,
-      "bggRating": 7.7751,
+      "bggRating": 7.7749,
       "userRating": 5.0,
       "collection": true,
       "bgg": true,
@@ -1560,7 +1560,7 @@
       "nameEn": "Harmonies",
       "nameZh": "自然和弦",
       "year": 2024,
-      "weight": 2.0112,
+      "weight": 2.0099,
       "players": {
         "min": 1,
         "max": 4,
@@ -1584,7 +1584,7 @@
         "max": 45
       },
       "bggRank": 55,
-      "bggRating": 7.7541,
+      "bggRating": 7.758,
       "userRating": 5.0,
       "collection": true,
       "bgg": true,
@@ -1612,7 +1612,7 @@
       "nameEn": "Age of Innovation",
       "nameZh": "神秘大地：大創造時代",
       "year": 2023,
-      "weight": 4.2689,
+      "weight": 4.2671,
       "players": {
         "min": 1,
         "max": 5,
@@ -1636,7 +1636,7 @@
         "max": 200
       },
       "bggRank": 56,
-      "bggRating": 7.754,
+      "bggRating": 7.7551,
       "userRating": 5.0,
       "collection": true,
       "bgg": true,
@@ -1665,7 +1665,7 @@
       "nameEn": "Puerto Rico",
       "nameZh": "波多黎各",
       "year": 2002,
-      "weight": 3.2663,
+      "weight": 3.2665,
       "players": {
         "min": 3,
         "max": 5,
@@ -1687,7 +1687,7 @@
         "max": 150
       },
       "bggRank": 57,
-      "bggRating": 7.7531,
+      "bggRating": 7.7526,
       "userRating": 3.0,
       "collection": true,
       "bgg": true,
@@ -1714,7 +1714,7 @@
       "nameEn": "On Mars",
       "nameZh": "火星之上",
       "year": 2020,
-      "weight": 4.6261,
+      "weight": 4.6252,
       "players": {
         "min": 1,
         "max": 4,
@@ -1767,7 +1767,7 @@
       "nameEn": "Cascadia",
       "nameZh": "卡斯卡迪亚之旅",
       "year": 2021,
-      "weight": 1.8418,
+      "weight": 1.842,
       "players": {
         "min": 1,
         "max": 4,
@@ -1791,7 +1791,7 @@
         "max": 45
       },
       "bggRank": 60,
-      "bggRating": 7.7352,
+      "bggRating": 7.7344,
       "userRating": 7.0,
       "collection": true,
       "bgg": true,
@@ -1842,7 +1842,7 @@
         "max": 150
       },
       "bggRank": 64,
-      "bggRating": 7.7249,
+      "bggRating": 7.7238,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -1870,7 +1870,7 @@
       "nameEn": "Blood on the Clocktower",
       "nameZh": "染.钟楼谜团",
       "year": 2022,
-      "weight": 3.0365,
+      "weight": 3.0364,
       "players": {
         "min": 6,
         "max": 21,
@@ -1902,7 +1902,7 @@
         "max": 120
       },
       "bggRank": 67,
-      "bggRating": 7.7153,
+      "bggRating": 7.7194,
       "userRating": 10.0,
       "collection": true,
       "bgg": true,
@@ -1950,7 +1950,7 @@
         "max": 120
       },
       "bggRank": 69,
-      "bggRating": 7.7105,
+      "bggRating": 7.7095,
       "userRating": 7.0,
       "collection": true,
       "bgg": true,
@@ -1979,7 +1979,7 @@
       "nameEn": "The White Castle",
       "nameZh": "姬路城",
       "year": 2023,
-      "weight": 3.0562,
+      "weight": 3.0583,
       "players": {
         "min": 1,
         "max": 4,
@@ -2002,7 +2002,7 @@
         "max": 80
       },
       "bggRank": 71,
-      "bggRating": 7.6871,
+      "bggRating": 7.688,
       "userRating": 5.0,
       "collection": true,
       "bgg": true,
@@ -2035,7 +2035,7 @@
       "nameEn": "Power Grid",
       "nameZh": "電力会社",
       "year": 2004,
-      "weight": 3.2461,
+      "weight": 3.2457,
       "players": {
         "min": 2,
         "max": 6,
@@ -2059,7 +2059,7 @@
         "max": 120
       },
       "bggRank": 73,
-      "bggRating": 7.6827,
+      "bggRating": 7.6824,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -2086,7 +2086,7 @@
       "nameEn": "Tzolk'in: The Mayan Calendar",
       "nameZh": "卓尔金历：玛雅日历",
       "year": 2012,
-      "weight": 3.6648,
+      "weight": 3.6646,
       "players": {
         "min": 2,
         "max": 4,
@@ -2108,7 +2108,7 @@
         "max": 90
       },
       "bggRank": 74,
-      "bggRating": 7.6827,
+      "bggRating": 7.6822,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -2135,7 +2135,7 @@
       "nameEn": "Endeavor: Deep Sea",
       "nameZh": "奋进号：深海",
       "year": 2024,
-      "weight": 2.9271,
+      "weight": 2.9279,
       "players": {
         "min": 1,
         "max": 4,
@@ -2157,8 +2157,8 @@
         "min": 60,
         "max": 120
       },
-      "bggRank": 79,
-      "bggRating": 7.6673,
+      "bggRank": 78,
+      "bggRating": 7.6719,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -2206,8 +2206,8 @@
         "min": 30,
         "max": 150
       },
-      "bggRank": 81,
-      "bggRating": 7.658,
+      "bggRank": 82,
+      "bggRating": 7.6566,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -2256,7 +2256,7 @@
         "min": 30,
         "max": 120
       },
-      "bggRank": 85,
+      "bggRank": 86,
       "bggRating": 7.6489,
       "userRating": null,
       "collection": true,
@@ -2287,7 +2287,7 @@
       "nameEn": "Bomb Busters",
       "nameZh": "炸弹克星",
       "year": 2024,
-      "weight": 1.9972,
+      "weight": 2.0,
       "players": {
         "min": 2,
         "max": 5,
@@ -2308,8 +2308,8 @@
         "min": 30,
         "max": 30
       },
-      "bggRank": 96,
-      "bggRating": 7.6107,
+      "bggRank": 93,
+      "bggRating": 7.6195,
       "userRating": 7.0,
       "collection": true,
       "bgg": true,
@@ -2333,7 +2333,7 @@
       "nameEn": "Arcs",
       "nameZh": "星弧航记",
       "year": 2024,
-      "weight": 3.4443,
+      "weight": 3.4474,
       "players": {
         "min": 2,
         "max": 4,
@@ -2356,7 +2356,7 @@
         "max": 120
       },
       "bggRank": 100,
-      "bggRating": 7.5956,
+      "bggRating": 7.5974,
       "userRating": 4.0,
       "collection": true,
       "bgg": true,
@@ -2406,7 +2406,7 @@
         "max": 120
       },
       "bggRank": 102,
-      "bggRating": 7.5922,
+      "bggRating": 7.5915,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -2434,7 +2434,7 @@
       "nameEn": "SCOUT",
       "nameZh": "马戏星探",
       "year": 2019,
-      "weight": 1.3879,
+      "weight": 1.3876,
       "players": {
         "min": 2,
         "max": 5,
@@ -2455,8 +2455,8 @@
         "min": 20,
         "max": 20
       },
-      "bggRank": 106,
-      "bggRating": 7.5816,
+      "bggRank": 107,
+      "bggRating": 7.5807,
       "userRating": 5.0,
       "collection": true,
       "bgg": true,
@@ -2475,66 +2475,12 @@
       }
     },
     {
-      "id": 68448,
-      "alias": "七大奇迹",
-      "nameEn": "7 Wonders",
-      "nameZh": "七大奇蹟",
-      "year": 2010,
-      "weight": 2.3144,
-      "players": {
-        "min": 2,
-        "max": 7,
-        "best": [
-          4,
-          5
-        ],
-        "recommended": [
-          3,
-          4,
-          5,
-          6,
-          7
-        ]
-      },
-      "age": {
-        "min": 10,
-        "recommended": null
-      },
-      "playingTime": {
-        "min": 30,
-        "max": 30
-      },
-      "bggRank": 117,
-      "bggRating": 7.5486,
-      "userRating": null,
-      "collection": true,
-      "bgg": true,
-      "mechanisms": {
-        "engineBuilding": true,
-        "cardDriven": true,
-        "drafting": true,
-        "economic": true,
-        "actionSelection": true,
-        "tableauBuilding": true
-      },
-      "status": {
-        "owned": false,
-        "previouslyOwned": false,
-        "forTrade": false,
-        "want": false,
-        "wantToPlay": true,
-        "wantToBuy": false,
-        "wishlist": false,
-        "preordered": false
-      }
-    },
-    {
       "id": 391137,
       "alias": "",
       "nameEn": "Galactic Cruise",
       "nameZh": "银河邮轮",
       "year": 2025,
-      "weight": 3.9744,
+      "weight": 3.973,
       "players": {
         "min": 1,
         "max": 4,
@@ -2556,8 +2502,8 @@
         "min": 90,
         "max": 150
       },
-      "bggRank": 120,
-      "bggRating": 7.5434,
+      "bggRank": 115,
+      "bggRating": 7.5502,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -2585,12 +2531,66 @@
       }
     },
     {
+      "id": 68448,
+      "alias": "七大奇迹",
+      "nameEn": "7 Wonders",
+      "nameZh": "七大奇蹟",
+      "year": 2010,
+      "weight": 2.3143,
+      "players": {
+        "min": 2,
+        "max": 7,
+        "best": [
+          4,
+          5
+        ],
+        "recommended": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "age": {
+        "min": 10,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 30
+      },
+      "bggRank": 118,
+      "bggRating": 7.5481,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "cardDriven": true,
+        "drafting": true,
+        "economic": true,
+        "actionSelection": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
       "id": 217372,
       "alias": "",
       "nameEn": "大梦归唐",
       "nameZh": "大梦归唐",
       "year": 2022,
-      "weight": 1.9413,
+      "weight": 1.9414,
       "players": {
         "min": 2,
         "max": 4,
@@ -2613,7 +2613,7 @@
         "max": 60
       },
       "bggRank": 123,
-      "bggRating": 7.5363,
+      "bggRating": 7.5371,
       "userRating": 5.0,
       "collection": true,
       "bgg": true,
@@ -2643,7 +2643,7 @@
       "nameEn": "Architects of the West Kingdom",
       "nameZh": "西國建築師",
       "year": 2018,
-      "weight": 2.7629,
+      "weight": 2.7631,
       "players": {
         "min": 1,
         "max": 5,
@@ -2667,7 +2667,7 @@
         "max": 80
       },
       "bggRank": 130,
-      "bggRating": 7.5118,
+      "bggRating": 7.5114,
       "userRating": 5.0,
       "collection": true,
       "bgg": true,
@@ -2723,8 +2723,8 @@
         "min": 60,
         "max": 150
       },
-      "bggRank": 138,
-      "bggRating": 7.4921,
+      "bggRank": 137,
+      "bggRating": 7.4933,
       "userRating": 9.0,
       "collection": true,
       "bgg": true,
@@ -2753,7 +2753,7 @@
       "nameEn": "Trajan",
       "nameZh": "圖拉真",
       "year": 2011,
-      "weight": 3.6255,
+      "weight": 3.6269,
       "players": {
         "min": 2,
         "max": 4,
@@ -2774,8 +2774,8 @@
         "min": 60,
         "max": 120
       },
-      "bggRank": 148,
-      "bggRating": 7.4641,
+      "bggRank": 149,
+      "bggRating": 7.4638,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -2803,7 +2803,7 @@
       "nameEn": "Forest Shuffle",
       "nameZh": "森森不息",
       "year": 2023,
-      "weight": 2.2113,
+      "weight": 2.2124,
       "players": {
         "min": 2,
         "max": 5,
@@ -2825,7 +2825,7 @@
         "max": 60
       },
       "bggRank": 153,
-      "bggRating": 7.455,
+      "bggRating": 7.4557,
       "userRating": 10.0,
       "collection": true,
       "bgg": true,
@@ -2853,7 +2853,7 @@
       "nameEn": "Codenames",
       "nameZh": "機密代號",
       "year": 2015,
-      "weight": 1.2548,
+      "weight": 1.2546,
       "players": {
         "min": 2,
         "max": 8,
@@ -2877,8 +2877,8 @@
         "min": 15,
         "max": 15
       },
-      "bggRank": 162,
-      "bggRating": 7.4282,
+      "bggRank": 161,
+      "bggRating": 7.428,
       "userRating": 5.0,
       "collection": true,
       "bgg": true,
@@ -2925,7 +2925,7 @@
         "max": 180
       },
       "bggRank": 175,
-      "bggRating": 7.4004,
+      "bggRating": 7.4013,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -2982,8 +2982,8 @@
         "min": 30,
         "max": 30
       },
-      "bggRank": 236,
-      "bggRating": 7.3018,
+      "bggRank": 237,
+      "bggRating": 7.3008,
       "userRating": 1.0,
       "collection": true,
       "bgg": true,
@@ -3007,7 +3007,7 @@
       "nameEn": "Carcassonne",
       "nameZh": "卡卡頌",
       "year": 2000,
-      "weight": 1.8849,
+      "weight": 1.8848,
       "players": {
         "min": 2,
         "max": 5,
@@ -3031,7 +3031,7 @@
         "max": 45
       },
       "bggRank": 238,
-      "bggRating": 7.2987,
+      "bggRating": 7.2986,
       "userRating": 7.0,
       "collection": true,
       "bgg": true,
@@ -3056,7 +3056,7 @@
       "nameEn": "Splendor",
       "nameZh": "璀璨宝石",
       "year": 2014,
-      "weight": 1.7754,
+      "weight": 1.775,
       "players": {
         "min": 2,
         "max": 4,
@@ -3077,8 +3077,8 @@
         "min": 30,
         "max": 30
       },
-      "bggRank": 243,
-      "bggRating": 7.2926,
+      "bggRank": 242,
+      "bggRating": 7.2929,
       "userRating": 6.0,
       "collection": true,
       "bgg": true,
@@ -3101,60 +3101,12 @@
       }
     },
     {
-      "id": 367220,
-      "alias": "",
-      "nameEn": "Sea Salt & Paper",
-      "nameZh": "海盐折纸",
-      "year": 2022,
-      "weight": 1.4756,
-      "players": {
-        "min": 2,
-        "max": 4,
-        "best": [
-          2
-        ],
-        "recommended": [
-          2,
-          3,
-          4
-        ]
-      },
-      "age": {
-        "min": 8,
-        "recommended": null
-      },
-      "playingTime": {
-        "min": 30,
-        "max": 45
-      },
-      "bggRank": 257,
-      "bggRating": 7.2645,
-      "userRating": 7.0,
-      "collection": true,
-      "bgg": true,
-      "mechanisms": {
-        "cardDriven": true,
-        "drafting": true,
-        "tableauBuilding": true
-      },
-      "status": {
-        "owned": false,
-        "previouslyOwned": false,
-        "forTrade": false,
-        "want": false,
-        "wantToPlay": false,
-        "wantToBuy": false,
-        "wishlist": false,
-        "preordered": false
-      }
-    },
-    {
       "id": 375459,
       "alias": "地下酒吧",
       "nameEn": "Speakeasy",
       "nameZh": "地下酒吧 Speakeasy",
       "year": 2025,
-      "weight": 4.4207,
+      "weight": 4.4289,
       "players": {
         "min": 1,
         "max": 4,
@@ -3176,8 +3128,8 @@
         "min": 50,
         "max": 180
       },
-      "bggRank": 262,
-      "bggRating": 7.2605,
+      "bggRank": 251,
+      "bggRating": 7.2739,
       "userRating": 3.0,
       "collection": true,
       "bgg": true,
@@ -3200,12 +3152,60 @@
       }
     },
     {
+      "id": 367220,
+      "alias": "",
+      "nameEn": "Sea Salt & Paper",
+      "nameZh": "海盐折纸",
+      "year": 2022,
+      "weight": 1.4768,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "best": [
+          2
+        ],
+        "recommended": [
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 8,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 45
+      },
+      "bggRank": 256,
+      "bggRating": 7.2679,
+      "userRating": 7.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true,
+        "drafting": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
       "id": 188834,
       "alias": "",
       "nameEn": "Secret Hitler",
       "nameZh": "揭秘希特勒",
       "year": 2016,
-      "weight": 1.7418,
+      "weight": 1.7425,
       "players": {
         "min": 5,
         "max": 10,
@@ -3230,7 +3230,7 @@
         "max": 45
       },
       "bggRank": 267,
-      "bggRating": 7.25,
+      "bggRating": 7.2492,
       "userRating": 4.0,
       "collection": true,
       "bgg": true,
@@ -3255,7 +3255,7 @@
       "nameEn": "Distilled",
       "nameZh": "滴酒成酿",
       "year": 2023,
-      "weight": 3.0313,
+      "weight": 3.034,
       "players": {
         "min": 1,
         "max": 5,
@@ -3277,8 +3277,8 @@
         "min": 30,
         "max": 150
       },
-      "bggRank": 276,
-      "bggRating": 7.2327,
+      "bggRank": 277,
+      "bggRating": 7.2316,
       "userRating": 7.0,
       "collection": true,
       "bgg": true,
@@ -3328,7 +3328,7 @@
         "max": 60
       },
       "bggRank": 284,
-      "bggRating": 7.2219,
+      "bggRating": 7.2206,
       "userRating": 2.0,
       "collection": true,
       "bgg": true,
@@ -3356,7 +3356,7 @@
       "nameEn": "Sushi Go Party!",
       "nameZh": "回转寿司：派对版",
       "year": 2016,
-      "weight": 1.324,
+      "weight": 1.3249,
       "players": {
         "min": 2,
         "max": 8,
@@ -3381,8 +3381,8 @@
         "min": 20,
         "max": 20
       },
-      "bggRank": 287,
-      "bggRating": 7.2169,
+      "bggRank": 286,
+      "bggRating": 7.2167,
       "userRating": 6.0,
       "collection": true,
       "bgg": true,
@@ -3410,7 +3410,7 @@
       "nameEn": "Unconscious Mind",
       "nameZh": "梦境潜行",
       "year": 2024,
-      "weight": 4.0176,
+      "weight": 4.0192,
       "players": {
         "min": 1,
         "max": 4,
@@ -3432,8 +3432,8 @@
         "min": 60,
         "max": 120
       },
-      "bggRank": 309,
-      "bggRating": 7.191,
+      "bggRank": 308,
+      "bggRating": 7.1916,
       "userRating": 6.0,
       "collection": true,
       "bgg": true,
@@ -3463,7 +3463,7 @@
       "nameEn": "Love Letter",
       "nameZh": "情书",
       "year": 2019,
-      "weight": 1.1206,
+      "weight": 1.1203,
       "players": {
         "min": 2,
         "max": 6,
@@ -3485,8 +3485,8 @@
         "min": 20,
         "max": 20
       },
-      "bggRank": 314,
-      "bggRating": 7.1875,
+      "bggRank": 313,
+      "bggRating": 7.187,
       "userRating": 4.0,
       "collection": true,
       "bgg": true,
@@ -3510,7 +3510,7 @@
       "nameEn": "The Witcher: Old World",
       "nameZh": "巫師：舊世界",
       "year": 2023,
-      "weight": 2.879,
+      "weight": 2.8818,
       "players": {
         "min": 1,
         "max": 5,
@@ -3533,7 +3533,7 @@
         "max": 150
       },
       "bggRank": 326,
-      "bggRating": 7.171,
+      "bggRating": 7.1734,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -3563,7 +3563,7 @@
       "nameEn": "Acquire",
       "nameZh": "併購風雲",
       "year": 1963,
-      "weight": 2.4888,
+      "weight": 2.4891,
       "players": {
         "min": 2,
         "max": 6,
@@ -3585,8 +3585,8 @@
         "min": 90,
         "max": 90
       },
-      "bggRank": 363,
-      "bggRating": 7.1287,
+      "bggRank": 364,
+      "bggRating": 7.1289,
       "userRating": 7.0,
       "collection": true,
       "bgg": true,
@@ -3615,7 +3615,7 @@
       "nameEn": "Frostpunk: The Board Game",
       "nameZh": "冰汽時代: 桌面遊戲",
       "year": 2022,
-      "weight": 4.4062,
+      "weight": 4.4077,
       "players": {
         "min": 1,
         "max": 4,
@@ -3636,8 +3636,8 @@
         "min": 120,
         "max": 150
       },
-      "bggRank": 375,
-      "bggRating": 7.111,
+      "bggRank": 376,
+      "bggRating": 7.1113,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -3665,7 +3665,7 @@
       "nameEn": "Flamecraft",
       "nameZh": "龍焰魔法鎮",
       "year": 2022,
-      "weight": 2.1843,
+      "weight": 2.1899,
       "players": {
         "min": 1,
         "max": 5,
@@ -3688,7 +3688,7 @@
         "min": 60,
         "max": 60
       },
-      "bggRank": 398,
+      "bggRank": 399,
       "bggRating": 7.0903,
       "userRating": 6.0,
       "collection": true,
@@ -3745,8 +3745,8 @@
         "min": 45,
         "max": 90
       },
-      "bggRank": 407,
-      "bggRating": 7.0824,
+      "bggRank": 405,
+      "bggRating": 7.0853,
       "userRating": 7.0,
       "collection": true,
       "bgg": true,
@@ -3770,7 +3770,7 @@
       "nameEn": "Fromage",
       "nameZh": "奶酪世家",
       "year": 2024,
-      "weight": 2.375,
+      "weight": 2.3762,
       "players": {
         "min": 1,
         "max": 4,
@@ -3792,8 +3792,8 @@
         "min": 30,
         "max": 45
       },
-      "bggRank": 412,
-      "bggRating": 7.0769,
+      "bggRank": 407,
+      "bggRating": 7.0839,
       "userRating": 6.0,
       "collection": true,
       "bgg": true,
@@ -3844,8 +3844,8 @@
         "min": 45,
         "max": 60
       },
-      "bggRank": 425,
-      "bggRating": 7.0656,
+      "bggRank": 428,
+      "bggRating": 7.0664,
       "userRating": 4.0,
       "collection": true,
       "bgg": true,
@@ -3857,6 +3857,56 @@
         "routeBuilding": true,
         "actionSelection": true,
         "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 420087,
+      "alias": "",
+      "nameEn": "Flip 7",
+      "nameZh": "7连翻",
+      "year": 2024,
+      "weight": 1.0251,
+      "players": {
+        "min": 3,
+        "max": 18,
+        "best": [
+          5,
+          6
+        ],
+        "recommended": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "age": {
+        "min": 8,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 20,
+        "max": 20
+      },
+      "bggRank": 515,
+      "bggRating": 6.9883,
+      "userRating": 5.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true
       },
       "status": {
         "owned": false,
@@ -3897,8 +3947,8 @@
         "min": 120,
         "max": 180
       },
-      "bggRank": 518,
-      "bggRating": 6.9851,
+      "bggRank": 519,
+      "bggRating": 6.9844,
       "userRating": 4.0,
       "collection": true,
       "bgg": true,
@@ -3922,43 +3972,45 @@
       }
     },
     {
-      "id": 420087,
+      "id": 404431,
       "alias": "",
-      "nameEn": "Flip 7",
-      "nameZh": "7连翻",
+      "nameEn": "Men-Nefer",
+      "nameZh": "孟菲斯传奇",
       "year": 2024,
-      "weight": 1.0257,
+      "weight": 3.6887,
       "players": {
-        "min": 3,
-        "max": 18,
+        "min": 1,
+        "max": 4,
         "best": [
-          5,
-          6
+          3
         ],
         "recommended": [
+          1,
+          2,
           3,
-          4,
-          5,
-          6,
-          7,
-          8
+          4
         ]
       },
       "age": {
-        "min": 8,
+        "min": 14,
         "recommended": null
       },
       "playingTime": {
-        "min": 20,
-        "max": 20
+        "min": 60,
+        "max": 120
       },
-      "bggRank": 521,
-      "bggRating": 6.9842,
+      "bggRank": 538,
+      "bggRating": 6.9657,
       "userRating": 5.0,
       "collection": true,
       "bgg": true,
       "mechanisms": {
-        "cardDriven": true
+        "workerPlacement": true,
+        "engineBuilding": true,
+        "drafting": true,
+        "resourceManagement": true,
+        "routeBuilding": true,
+        "tableauBuilding": true
       },
       "status": {
         "owned": false,
@@ -4002,7 +4054,7 @@
         "max": 45
       },
       "bggRank": 546,
-      "bggRating": 6.9606,
+      "bggRating": 6.9611,
       "userRating": 5.0,
       "collection": true,
       "bgg": true,
@@ -4023,64 +4075,12 @@
       }
     },
     {
-      "id": 404431,
-      "alias": "",
-      "nameEn": "Men-Nefer",
-      "nameZh": "孟菲斯传奇",
-      "year": 2024,
-      "weight": 3.6887,
-      "players": {
-        "min": 1,
-        "max": 4,
-        "best": [
-          3
-        ],
-        "recommended": [
-          1,
-          2,
-          3,
-          4
-        ]
-      },
-      "age": {
-        "min": 14,
-        "recommended": null
-      },
-      "playingTime": {
-        "min": 60,
-        "max": 120
-      },
-      "bggRank": 548,
-      "bggRating": 6.9588,
-      "userRating": 5.0,
-      "collection": true,
-      "bgg": true,
-      "mechanisms": {
-        "workerPlacement": true,
-        "engineBuilding": true,
-        "drafting": true,
-        "resourceManagement": true,
-        "routeBuilding": true,
-        "tableauBuilding": true
-      },
-      "status": {
-        "owned": false,
-        "previouslyOwned": false,
-        "forTrade": false,
-        "want": false,
-        "wantToPlay": false,
-        "wantToBuy": false,
-        "wishlist": false,
-        "preordered": false
-      }
-    },
-    {
       "id": 371330,
       "alias": "",
       "nameEn": "Luthier",
       "nameZh": "制琴师",
       "year": 2025,
-      "weight": 3.7835,
+      "weight": 3.7868,
       "players": {
         "min": 1,
         "max": 4,
@@ -4102,8 +4102,8 @@
         "min": 90,
         "max": 150
       },
-      "bggRank": 596,
-      "bggRating": 6.9213,
+      "bggRank": 584,
+      "bggRating": 6.9331,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -4133,7 +4133,7 @@
       "nameEn": "Catan",
       "nameZh": "卡坦 : 基礎",
       "year": 1995,
-      "weight": 2.2822,
+      "weight": 2.2819,
       "players": {
         "min": 3,
         "max": 4,
@@ -4154,7 +4154,7 @@
         "max": 120
       },
       "bggRank": 620,
-      "bggRating": 6.9036,
+      "bggRating": 6.9029,
       "userRating": 1.0,
       "collection": true,
       "bgg": true,
@@ -4184,7 +4184,7 @@
       "nameEn": "Sushi Go!",
       "nameZh": "迴轉壽司",
       "year": 2013,
-      "weight": 1.1643,
+      "weight": 1.1642,
       "players": {
         "min": 2,
         "max": 5,
@@ -4205,8 +4205,8 @@
         "min": 15,
         "max": 15
       },
-      "bggRank": 659,
-      "bggRating": 6.8694,
+      "bggRank": 656,
+      "bggRating": 6.8686,
       "userRating": 6.0,
       "collection": true,
       "bgg": true,
@@ -4229,12 +4229,64 @@
       }
     },
     {
+      "id": 434367,
+      "alias": "",
+      "nameEn": "Nippon: Zaibatsu",
+      "nameZh": "日本：财阀",
+      "year": 2026,
+      "weight": 3.6026,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          4
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 120
+      },
+      "bggRank": 666,
+      "bggRating": 6.8644,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "workerPlacement": true,
+        "engineBuilding": true,
+        "drafting": true,
+        "resourceManagement": true,
+        "economic": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
       "id": 147949,
       "alias": "",
       "nameEn": "One Night Ultimate Werewolf",
       "nameZh": "一夜終極狼人",
       "year": 2014,
-      "weight": 1.3821,
+      "weight": 1.3836,
       "players": {
         "min": 3,
         "max": 10,
@@ -4261,8 +4313,8 @@
         "min": 10,
         "max": 10
       },
-      "bggRank": 681,
-      "bggRating": 6.8546,
+      "bggRank": 684,
+      "bggRating": 6.854,
       "userRating": 3.0,
       "collection": true,
       "bgg": true,
@@ -4286,7 +4338,7 @@
       "nameEn": "Weather Machine",
       "nameZh": "天气机器",
       "year": 2022,
-      "weight": 4.5608,
+      "weight": 4.5606,
       "players": {
         "min": 2,
         "max": 4,
@@ -4308,8 +4360,8 @@
         "min": 60,
         "max": 150
       },
-      "bggRank": 709,
-      "bggRating": 6.8366,
+      "bggRank": 713,
+      "bggRating": 6.8342,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -4318,58 +4370,6 @@
         "tilePlacement": true,
         "actionSelection": true,
         "tableauBuilding": true
-      },
-      "status": {
-        "owned": false,
-        "previouslyOwned": false,
-        "forTrade": false,
-        "want": false,
-        "wantToPlay": true,
-        "wantToBuy": false,
-        "wishlist": false,
-        "preordered": false
-      }
-    },
-    {
-      "id": 434367,
-      "alias": "",
-      "nameEn": "Nippon: Zaibatsu",
-      "nameZh": "日本：财阀",
-      "year": 2026,
-      "weight": 3.6069,
-      "players": {
-        "min": 1,
-        "max": 4,
-        "best": [
-          4
-        ],
-        "recommended": [
-          1,
-          2,
-          3,
-          4
-        ]
-      },
-      "age": {
-        "min": 12,
-        "recommended": null
-      },
-      "playingTime": {
-        "min": 60,
-        "max": 120
-      },
-      "bggRank": 746,
-      "bggRating": 6.8086,
-      "userRating": null,
-      "collection": true,
-      "bgg": true,
-      "mechanisms": {
-        "areaControl": true,
-        "workerPlacement": true,
-        "engineBuilding": true,
-        "drafting": true,
-        "resourceManagement": true,
-        "economic": true
       },
       "status": {
         "owned": false,
@@ -4412,7 +4412,7 @@
         "max": 120
       },
       "bggRank": 1034,
-      "bggRating": 6.6366,
+      "bggRating": 6.6376,
       "userRating": 2.0,
       "collection": true,
       "bgg": true,
@@ -4440,7 +4440,7 @@
       "nameEn": "Forest Shuffle: Dartmoor",
       "nameZh": "森森不息：达特穆尔",
       "year": 2025,
-      "weight": 2.283,
+      "weight": 2.2778,
       "players": {
         "min": 2,
         "max": 5,
@@ -4462,8 +4462,8 @@
         "min": 60,
         "max": 60
       },
-      "bggRank": 1166,
-      "bggRating": 6.5668,
+      "bggRank": 1143,
+      "bggRating": 6.5824,
       "userRating": 9.0,
       "collection": true,
       "bgg": true,
@@ -4512,8 +4512,8 @@
         "min": 30,
         "max": 30
       },
-      "bggRank": 1256,
-      "bggRating": 6.5285,
+      "bggRank": 1247,
+      "bggRating": 6.5324,
       "userRating": 3.0,
       "collection": true,
       "bgg": true,
@@ -4560,8 +4560,8 @@
         "min": 30,
         "max": 30
       },
-      "bggRank": 1328,
-      "bggRating": 6.5006,
+      "bggRank": 1314,
+      "bggRating": 6.5061,
       "userRating": 7.0,
       "collection": true,
       "bgg": true,
@@ -4589,7 +4589,7 @@
       "nameEn": "Deep Regrets",
       "nameZh": "深海漁恨",
       "year": 2025,
-      "weight": 2.3208,
+      "weight": 2.3241,
       "players": {
         "min": 1,
         "max": 5,
@@ -4611,8 +4611,8 @@
         "min": 30,
         "max": 150
       },
-      "bggRank": 1377,
-      "bggRating": 6.4776,
+      "bggRank": 1345,
+      "bggRating": 6.4953,
       "userRating": 5.0,
       "collection": true,
       "bgg": true,
@@ -4673,8 +4673,8 @@
         "min": 30,
         "max": 30
       },
-      "bggRank": 1533,
-      "bggRating": 6.417,
+      "bggRank": 1538,
+      "bggRating": 6.4159,
       "userRating": 1.0,
       "collection": true,
       "bgg": true,
@@ -4698,7 +4698,7 @@
       "nameEn": "Saboteur",
       "nameZh": "矮人掘金",
       "year": 2004,
-      "weight": 1.3171,
+      "weight": 1.317,
       "players": {
         "min": 3,
         "max": 10,
@@ -4723,8 +4723,8 @@
         "min": 30,
         "max": 30
       },
-      "bggRank": 1549,
-      "bggRating": 6.4111,
+      "bggRank": 1551,
+      "bggRating": 6.4108,
       "userRating": 6.0,
       "collection": true,
       "bgg": true,
@@ -4750,7 +4750,7 @@
       "nameEn": "Salem 1692",
       "nameZh": "獵巫鎮 Salam 1692",
       "year": 2015,
-      "weight": 2.05,
+      "weight": 2.0656,
       "players": {
         "min": 4,
         "max": 12,
@@ -4776,8 +4776,8 @@
         "min": 25,
         "max": 35
       },
-      "bggRank": 1728,
-      "bggRating": 6.3426,
+      "bggRank": 1730,
+      "bggRating": 6.3422,
       "userRating": 9.0,
       "collection": true,
       "bgg": true,
@@ -4825,8 +4825,8 @@
         "min": 20,
         "max": 40
       },
-      "bggRank": 1820,
-      "bggRating": 6.313,
+      "bggRank": 1830,
+      "bggRating": 6.3109,
       "userRating": 6.0,
       "collection": true,
       "bgg": true,
@@ -4851,7 +4851,7 @@
       "nameEn": "Paranormal Detectives",
       "nameZh": "靈能偵探",
       "year": 2019,
-      "weight": 1.6735,
+      "weight": 1.68,
       "players": {
         "min": 2,
         "max": 6,
@@ -4874,8 +4874,8 @@
         "min": 30,
         "max": 50
       },
-      "bggRank": 1988,
-      "bggRating": 6.2659,
+      "bggRank": 1989,
+      "bggRating": 6.2646,
       "userRating": 7.0,
       "collection": true,
       "bgg": true,
@@ -4929,8 +4929,8 @@
         "min": 15,
         "max": 30
       },
-      "bggRank": 2265,
-      "bggRating": 6.1921,
+      "bggRank": 2263,
+      "bggRating": 6.1926,
       "userRating": 8.0,
       "collection": true,
       "bgg": true,
@@ -4980,8 +4980,8 @@
         "min": 20,
         "max": 40
       },
-      "bggRank": 2301,
-      "bggRating": 6.1826,
+      "bggRank": 2308,
+      "bggRating": 6.1799,
       "userRating": 5.0,
       "collection": true,
       "bgg": true,
@@ -5030,8 +5030,8 @@
         "min": 20,
         "max": 40
       },
-      "bggRank": 3405,
-      "bggRating": 5.9641,
+      "bggRank": 3386,
+      "bggRating": 5.9672,
       "userRating": 8.0,
       "collection": true,
       "bgg": true,
@@ -5076,8 +5076,8 @@
         "min": 40,
         "max": 60
       },
-      "bggRank": 3486,
-      "bggRating": 5.9513,
+      "bggRank": 3487,
+      "bggRating": 5.9511,
       "userRating": 6.0,
       "collection": true,
       "bgg": true,
@@ -5122,8 +5122,8 @@
         "min": 60,
         "max": 60
       },
-      "bggRank": 3569,
-      "bggRating": 5.9404,
+      "bggRank": 3575,
+      "bggRating": 5.9398,
       "userRating": 8.0,
       "collection": true,
       "bgg": true,
@@ -5178,8 +5178,8 @@
         "min": 30,
         "max": 30
       },
-      "bggRank": 3614,
-      "bggRating": 5.934,
+      "bggRank": 3620,
+      "bggRating": 5.933,
       "userRating": 8.0,
       "collection": true,
       "bgg": true,
@@ -5228,8 +5228,8 @@
         "min": 20,
         "max": 40
       },
-      "bggRank": 3631,
-      "bggRating": 5.9314,
+      "bggRank": 3639,
+      "bggRating": 5.9305,
       "userRating": 5.0,
       "collection": true,
       "bgg": true,
@@ -5244,6 +5244,56 @@
         "forTrade": false,
         "want": false,
         "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 403150,
+      "alias": "",
+      "nameEn": "World Order",
+      "nameZh": "世界秩序",
+      "year": 2026,
+      "weight": 3.6735,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "best": [
+          4
+        ],
+        "recommended": [
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 120,
+        "max": 180
+      },
+      "bggRank": 3647,
+      "bggRating": 5.9295,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "cardDriven": true,
+        "deckBuilding": true,
+        "economic": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
         "wantToBuy": false,
         "wishlist": false,
         "preordered": false
@@ -5280,8 +5330,8 @@
         "min": 30,
         "max": 30
       },
-      "bggRank": 4760,
-      "bggRating": 5.8034,
+      "bggRank": 4772,
+      "bggRating": 5.8026,
       "userRating": 7.0,
       "collection": true,
       "bgg": true,
@@ -5300,62 +5350,12 @@
       }
     },
     {
-      "id": 403150,
-      "alias": "",
-      "nameEn": "World Order",
-      "nameZh": "世界秩序",
-      "year": 2026,
-      "weight": 3.7097,
-      "players": {
-        "min": 2,
-        "max": 4,
-        "best": [
-          4
-        ],
-        "recommended": [
-          2,
-          3,
-          4
-        ]
-      },
-      "age": {
-        "min": 14,
-        "recommended": null
-      },
-      "playingTime": {
-        "min": 120,
-        "max": 180
-      },
-      "bggRank": 4854,
-      "bggRating": 5.7959,
-      "userRating": null,
-      "collection": true,
-      "bgg": true,
-      "mechanisms": {
-        "areaControl": true,
-        "cardDriven": true,
-        "deckBuilding": true,
-        "economic": true,
-        "actionSelection": true
-      },
-      "status": {
-        "owned": false,
-        "previouslyOwned": false,
-        "forTrade": false,
-        "want": false,
-        "wantToPlay": true,
-        "wantToBuy": false,
-        "wishlist": false,
-        "preordered": false
-      }
-    },
-    {
       "id": 452264,
       "alias": "",
       "nameEn": "Brass: Pittsburgh",
       "nameZh": "工业革命：匹兹堡",
       "year": 2027,
-      "weight": 3.6857,
+      "weight": 3.7297,
       "players": {
         "min": 1,
         "max": 4,
@@ -5376,8 +5376,8 @@
         "min": 60,
         "max": 120
       },
-      "bggRank": 6101,
-      "bggRating": 5.7104,
+      "bggRank": 5960,
+      "bggRating": 5.7185,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -5430,8 +5430,8 @@
         "min": 20,
         "max": 45
       },
-      "bggRank": 8499,
-      "bggRating": 5.6199,
+      "bggRank": 8485,
+      "bggRating": 5.6202,
       "userRating": 7.0,
       "collection": true,
       "bgg": true,
@@ -5460,8 +5460,6 @@
         "min": 1,
         "max": 4,
         "best": [
-          2,
-          3,
           4
         ],
         "recommended": [
@@ -5479,8 +5477,8 @@
         "min": 100,
         "max": 180
       },
-      "bggRank": 9485,
-      "bggRating": 5.5986,
+      "bggRank": 9304,
+      "bggRating": 5.6023,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -5530,8 +5528,8 @@
         "min": 40,
         "max": 40
       },
-      "bggRank": 9490,
-      "bggRating": 5.5985,
+      "bggRank": 9394,
+      "bggRating": 5.6002,
       "userRating": 10.0,
       "collection": true,
       "bgg": true,
@@ -5582,8 +5580,8 @@
         "min": 15,
         "max": 25
       },
-      "bggRank": 10854,
-      "bggRating": 5.5761,
+      "bggRank": 10868,
+      "bggRating": 5.5758,
       "userRating": 7.0,
       "collection": true,
       "bgg": true,
@@ -5631,8 +5629,8 @@
         "min": 20,
         "max": 45
       },
-      "bggRank": 12179,
-      "bggRating": 5.5606,
+      "bggRank": 11956,
+      "bggRating": 5.5629,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -5687,8 +5685,8 @@
         "min": 30,
         "max": 30
       },
-      "bggRank": 12188,
-      "bggRating": 5.5605,
+      "bggRank": 12060,
+      "bggRating": 5.5615,
       "userRating": 10.0,
       "collection": true,
       "bgg": true,
@@ -5708,12 +5706,58 @@
       }
     },
     {
+      "id": 341870,
+      "alias": "",
+      "nameEn": "The Queen's Dilemma",
+      "nameZh": "女王的困境",
+      "year": 2026,
+      "weight": 2.6667,
+      "players": {
+        "min": 3,
+        "max": 6,
+        "best": [
+          6
+        ],
+        "recommended": [
+          4,
+          5,
+          6
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 90
+      },
+      "bggRank": 14377,
+      "bggRating": 5.542,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "economic": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
       "id": 349944,
       "alias": "",
       "nameEn": "Baltic Empires: The Northern Wars of 1558-1721",
       "nameZh": "波罗的海帝国：1558-1721北方战争",
       "year": 2026,
-      "weight": 2.4,
+      "weight": 2.5714,
       "players": {
         "min": 2,
         "max": 5,
@@ -5722,7 +5766,6 @@
           5
         ],
         "recommended": [
-          1,
           2,
           3,
           4,
@@ -5737,8 +5780,8 @@
         "min": 120,
         "max": 360
       },
-      "bggRank": 16182,
-      "bggRating": 5.5323,
+      "bggRank": 15367,
+      "bggRating": 5.5362,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -5787,8 +5830,8 @@
         "min": 25,
         "max": 25
       },
-      "bggRank": 16520,
-      "bggRating": 5.5307,
+      "bggRank": 16497,
+      "bggRating": 5.5308,
       "userRating": 4.0,
       "collection": true,
       "bgg": true,
@@ -5841,8 +5884,8 @@
         "min": 15,
         "max": 30
       },
-      "bggRank": 16897,
-      "bggRating": 5.5291,
+      "bggRank": 16849,
+      "bggRating": 5.5292,
       "userRating": 7.0,
       "collection": true,
       "bgg": true,
@@ -5863,52 +5906,6 @@
       }
     },
     {
-      "id": 341870,
-      "alias": "",
-      "nameEn": "The Queen's Dilemma",
-      "nameZh": "女王的困境",
-      "year": 2026,
-      "weight": 2.5,
-      "players": {
-        "min": 3,
-        "max": 6,
-        "best": [
-          6
-        ],
-        "recommended": [
-          4,
-          5,
-          6
-        ]
-      },
-      "age": {
-        "min": 14,
-        "recommended": null
-      },
-      "playingTime": {
-        "min": 60,
-        "max": 90
-      },
-      "bggRank": 18028,
-      "bggRating": 5.5245,
-      "userRating": null,
-      "collection": true,
-      "bgg": true,
-      "mechanisms": {
-        "economic": true
-      },
-      "status": {
-        "owned": false,
-        "previouslyOwned": false,
-        "forTrade": false,
-        "want": false,
-        "wantToPlay": true,
-        "wantToBuy": false,
-        "wishlist": false,
-        "preordered": false
-      }
-    },
-    {
       "id": 402276,
       "alias": "",
       "nameEn": "Avalon: The Riven Veil",
@@ -5919,8 +5916,8 @@
         "min": 2,
         "max": 5,
         "best": [
-          3,
-          4
+          2,
+          3
         ],
         "recommended": [
           2,
@@ -5937,8 +5934,8 @@
         "min": 60,
         "max": 120
       },
-      "bggRank": 19774,
-      "bggRating": 5.5187,
+      "bggRank": 19828,
+      "bggRating": 5.5186,
       "userRating": null,
       "collection": true,
       "bgg": true,
@@ -5986,8 +5983,8 @@
         "min": 45,
         "max": 60
       },
-      "bggRank": 20342,
-      "bggRating": 5.5169,
+      "bggRank": 20413,
+      "bggRating": 5.5168,
       "userRating": 6.0,
       "collection": true,
       "bgg": true,
@@ -6016,7 +6013,7 @@
       "nameEn": "UNO",
       "nameZh": "优诺牌",
       "year": 1971,
-      "weight": 1.1001,
+      "weight": 1.1,
       "players": {
         "min": 2,
         "max": 10,
@@ -6042,8 +6039,8 @@
         "min": 30,
         "max": 30
       },
-      "bggRank": 30527,
-      "bggRating": 5.3528,
+      "bggRank": 30592,
+      "bggRating": 5.3538,
       "userRating": 1.0,
       "collection": true,
       "bgg": true,
@@ -6067,7 +6064,7 @@
       "nameEn": "Monopoly",
       "nameZh": "地產大亨",
       "year": 1935,
-      "weight": 1.6189,
+      "weight": 1.6185,
       "players": {
         "min": 2,
         "max": 8,
@@ -6089,8 +6086,8 @@
         "min": 60,
         "max": 180
       },
-      "bggRank": 30665,
-      "bggRating": 4.2937,
+      "bggRank": 30732,
+      "bggRating": 4.2941,
       "userRating": 3.0,
       "collection": true,
       "bgg": true,
@@ -6538,7 +6535,7 @@
       "nameEn": "Puerto Rico",
       "nameZh": "波多黎各豪華版",
       "year": 2020,
-      "weight": 3.0392,
+      "weight": 3.0385,
       "players": {
         "min": 2,
         "max": 5,
@@ -6561,7 +6558,7 @@
         "max": 120
       },
       "bggRank": null,
-      "bggRating": 6.4497,
+      "bggRating": 6.4512,
       "userRating": 3.0,
       "collection": true,
       "bgg": true,
@@ -6577,6 +6574,55 @@
         "forTrade": false,
         "want": false,
         "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 457060,
+      "alias": "",
+      "nameEn": "Roma XLI",
+      "nameZh": "",
+      "year": 2026,
+      "weight": 0.0,
+      "players": {
+        "min": 1,
+        "max": 9,
+        "best": [
+          9
+        ],
+        "recommended": [
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 20,
+        "max": 40
+      },
+      "bggRank": null,
+      "bggRating": null,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "economic": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
         "wantToBuy": false,
         "wishlist": false,
         "preordered": false
