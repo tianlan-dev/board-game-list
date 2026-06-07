@@ -1,0 +1,13 @@
+bgg_auth.json
+*.cookie
+*.cookies
+*.token
+data.json.bak-*
+__pycache__/
+*.py[cod]
+
+node_modules/
+npm-debug.log*
+.DS_Store
+.server-logs/
+.env*.local

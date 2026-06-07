@@ -1,0 +1,6865 @@
+{
+  "lastUpdated": "2026-05-26T17:56:01Z",
+  "games": [
+    {
+      "id": 224517,
+      "alias": "",
+      "nameEn": "Brass: Birmingham",
+      "nameZh": "工业革命：伯明翰",
+      "year": 2018,
+      "weight": 3.8621,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "best": [
+          3,
+          4
+        ],
+        "recommended": [
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 120
+      },
+      "bggRank": 1,
+      "bggRating": 8.3933,
+      "userRating": 8.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "cardDriven": true,
+        "resourceManagement": true,
+        "tilePlacement": true,
+        "routeBuilding": true,
+        "economic": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 342942,
+      "alias": "",
+      "nameEn": "Ark Nova",
+      "nameZh": "方舟动物园",
+      "year": 2021,
+      "weight": 3.7967,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          2
+        ],
+        "recommended": [
+          1,
+          2,
+          3
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 90,
+        "max": 150
+      },
+      "bggRank": 2,
+      "bggRating": 8.3543,
+      "userRating": 9.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "cardDriven": true,
+        "drafting": true,
+        "resourceManagement": true,
+        "tilePlacement": true,
+        "routeBuilding": true,
+        "actionSelection": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 161936,
+      "alias": "",
+      "nameEn": "Pandemic Legacy: Season 1",
+      "nameZh": "瘟疫危機︰承傳",
+      "year": 2015,
+      "weight": 2.8279,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "best": [
+          4
+        ],
+        "recommended": [
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 13,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 60
+      },
+      "bggRank": 3,
+      "bggRating": 8.3461,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true,
+        "routeBuilding": true,
+        "economic": true,
+        "actionSelection": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 174430,
+      "alias": "",
+      "nameEn": "Gloomhaven",
+      "nameZh": "幽港迷城",
+      "year": 2017,
+      "weight": 3.9192,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 120
+      },
+      "bggRank": 4,
+      "bggRating": 8.2969,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "cardDriven": true,
+        "deckBuilding": true,
+        "tilePlacement": true,
+        "actionSelection": true,
+        "dice": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 397598,
+      "alias": "",
+      "nameEn": "Dune: Imperium – Uprising",
+      "nameZh": "沙丘：帝国 - 起义",
+      "year": 2023,
+      "weight": 3.5224,
+      "players": {
+        "min": 1,
+        "max": 6,
+        "best": [
+          4
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4,
+          6
+        ]
+      },
+      "age": {
+        "min": 13,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 120
+      },
+      "bggRank": 5,
+      "bggRating": 8.2382,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "workerPlacement": true,
+        "engineBuilding": true,
+        "cardDriven": true,
+        "deckBuilding": true,
+        "drafting": true,
+        "resourceManagement": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 316554,
+      "alias": "",
+      "nameEn": "Dune: Imperium",
+      "nameZh": "沙丘：帝国",
+      "year": 2020,
+      "weight": 3.0772,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          3,
+          4
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 120
+      },
+      "bggRank": 6,
+      "bggRating": 8.2217,
+      "userRating": 7.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "workerPlacement": true,
+        "cardDriven": true,
+        "deckBuilding": true,
+        "drafting": true,
+        "economic": true,
+        "actionSelection": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 233078,
+      "alias": "",
+      "nameEn": "Twilight Imperium: Fourth Edition",
+      "nameZh": "帝国曙光 第4版",
+      "year": 2017,
+      "weight": 4.3534,
+      "players": {
+        "min": 3,
+        "max": 6,
+        "best": [
+          6
+        ],
+        "recommended": [
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 240,
+        "max": 480
+      },
+      "bggRank": 7,
+      "bggRating": 8.2186,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "engineBuilding": true,
+        "drafting": true,
+        "tilePlacement": true,
+        "economic": true,
+        "actionSelection": true,
+        "dice": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 167791,
+      "alias": "重塑火星",
+      "nameEn": "Terraforming Mars",
+      "nameZh": "殖民火星",
+      "year": 2016,
+      "weight": 3.272,
+      "players": {
+        "min": 1,
+        "max": 5,
+        "best": [
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 120,
+        "max": 120
+      },
+      "bggRank": 9,
+      "bggRating": 8.1852,
+      "userRating": 9.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "cardDriven": true,
+        "drafting": true,
+        "resourceManagement": true,
+        "tilePlacement": true,
+        "economic": true,
+        "actionSelection": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 291457,
+      "alias": "",
+      "nameEn": "Gloomhaven: Jaws of the Lion",
+      "nameZh": "幽港迷城：雄狮蛮颚",
+      "year": 2020,
+      "weight": 3.6398,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          2
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 120
+      },
+      "bggRank": 12,
+      "bggRating": 8.0959,
+      "userRating": 6.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "cardDriven": true,
+        "deckBuilding": true,
+        "actionSelection": true,
+        "dice": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 220308,
+      "alias": "盖亚计划",
+      "nameEn": "Gaia Project",
+      "nameZh": "蓋亞計畫",
+      "year": 2017,
+      "weight": 4.4028,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          3,
+          4
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 150
+      },
+      "bggRank": 13,
+      "bggRating": 8.088,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "resourceManagement": true,
+        "tilePlacement": true,
+        "routeBuilding": true,
+        "economic": true,
+        "actionSelection": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 12333,
+      "alias": "冷战热斗",
+      "nameEn": "Twilight Struggle",
+      "nameZh": "冷战热斗 (冷戰熱鬥)",
+      "year": 2005,
+      "weight": 3.6152,
+      "players": {
+        "min": 2,
+        "max": 2,
+        "best": [
+          2
+        ],
+        "recommended": [
+          2
+        ]
+      },
+      "age": {
+        "min": 13,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 120,
+        "max": 180
+      },
+      "bggRank": 14,
+      "bggRating": 8.0404,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "cardDriven": true,
+        "actionSelection": true,
+        "dice": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 84876,
+      "alias": "",
+      "nameEn": "The Castles of Burgundy",
+      "nameZh": "勃根地城堡",
+      "year": 2011,
+      "weight": 2.9706,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "best": [
+          2
+        ],
+        "recommended": [
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 90
+      },
+      "bggRank": 15,
+      "bggRating": 8.0318,
+      "userRating": 5.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "workerPlacement": true,
+        "engineBuilding": true,
+        "drafting": true,
+        "tilePlacement": true,
+        "routeBuilding": true,
+        "dice": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 418059,
+      "alias": "",
+      "nameEn": "SETI: Search for Extraterrestrial Intelligence",
+      "nameZh": "星空觅迹：探寻地外文明计划",
+      "year": 2024,
+      "weight": 3.8296,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 40,
+        "max": 160
+      },
+      "bggRank": 16,
+      "bggRating": 8.0304,
+      "userRating": 5.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "engineBuilding": true,
+        "cardDriven": true,
+        "resourceManagement": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 182028,
+      "alias": "",
+      "nameEn": "Through the Ages: A New Story of Civilization",
+      "nameZh": "历史巨轮：人类文明新篇章",
+      "year": 2015,
+      "weight": 4.4425,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "best": [
+          3
+        ],
+        "recommended": [
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 120,
+        "max": 120
+      },
+      "bggRank": 18,
+      "bggRating": 8.0133,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "cardDriven": true,
+        "drafting": true,
+        "resourceManagement": true,
+        "economic": true,
+        "actionSelection": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 193738,
+      "alias": "",
+      "nameEn": "Great Western Trail",
+      "nameZh": "大西部之路",
+      "year": 2016,
+      "weight": 3.6943,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "best": [
+          3
+        ],
+        "recommended": [
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 75,
+        "max": 150
+      },
+      "bggRank": 20,
+      "bggRating": 7.9738,
+      "userRating": 6.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true,
+        "deckBuilding": true,
+        "routeBuilding": true,
+        "economic": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 28720,
+      "alias": "工业革命：兰开夏",
+      "nameEn": "Brass: Lancashire",
+      "nameZh": "工業革命",
+      "year": 2007,
+      "weight": 3.8436,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "best": [
+          4
+        ],
+        "recommended": [
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 120
+      },
+      "bggRank": 22,
+      "bggRating": 7.9607,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "cardDriven": true,
+        "resourceManagement": true,
+        "tilePlacement": true,
+        "routeBuilding": true,
+        "economic": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 167355,
+      "alias": "",
+      "nameEn": "Nemesis",
+      "nameZh": "復仇女神號",
+      "year": 2018,
+      "weight": 3.4874,
+      "players": {
+        "min": 1,
+        "max": 5,
+        "best": [
+          4,
+          5
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 90,
+        "max": 180
+      },
+      "bggRank": 25,
+      "bggRating": 7.9501,
+      "userRating": 8.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true,
+        "tilePlacement": true,
+        "actionSelection": true,
+        "dice": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 169786,
+      "alias": "镰刀战争",
+      "nameEn": "Scythe",
+      "nameZh": "大鎌戦役",
+      "year": 2016,
+      "weight": 3.453,
+      "players": {
+        "min": 1,
+        "max": 5,
+        "best": [
+          4
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 115,
+        "max": 115
+      },
+      "bggRank": 26,
+      "bggRating": 7.9447,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "engineBuilding": true,
+        "cardDriven": true,
+        "resourceManagement": true,
+        "economic": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 177736,
+      "alias": "",
+      "nameEn": "A Feast for Odin",
+      "nameZh": "奥丁的盛宴",
+      "year": 2016,
+      "weight": 3.8693,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 120
+      },
+      "bggRank": 27,
+      "bggRating": 7.9411,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "workerPlacement": true,
+        "engineBuilding": true,
+        "cardDriven": true,
+        "resourceManagement": true,
+        "tilePlacement": true,
+        "actionSelection": true,
+        "dice": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 341169,
+      "alias": "",
+      "nameEn": "Great Western Trail: Second Edition",
+      "nameZh": "大西部開拓者",
+      "year": 2021,
+      "weight": 3.7041,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 75,
+        "max": 150
+      },
+      "bggRank": 31,
+      "bggRating": 7.9053,
+      "userRating": 7.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true,
+        "deckBuilding": true,
+        "routeBuilding": true,
+        "economic": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 237182,
+      "alias": "",
+      "nameEn": "Root",
+      "nameZh": "茂林源記",
+      "year": 2018,
+      "weight": 3.8404,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "best": [
+          4
+        ],
+        "recommended": [
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 90
+      },
+      "bggRank": 34,
+      "bggRating": 7.8814,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "cardDriven": true,
+        "routeBuilding": true,
+        "actionSelection": true,
+        "dice": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 120677,
+      "alias": "",
+      "nameEn": "Terra Mystica",
+      "nameZh": "神秘大地",
+      "year": 2012,
+      "weight": 3.9721,
+      "players": {
+        "min": 2,
+        "max": 5,
+        "best": [
+          4
+        ],
+        "recommended": [
+          3,
+          4,
+          5
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 150
+      },
+      "bggRank": 35,
+      "bggRating": 7.8598,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "resourceManagement": true,
+        "routeBuilding": true,
+        "economic": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 266192,
+      "alias": "",
+      "nameEn": "Wingspan",
+      "nameZh": "展翅翱翔",
+      "year": 2019,
+      "weight": 2.4799,
+      "players": {
+        "min": 1,
+        "max": 5,
+        "best": [
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 10,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 40,
+        "max": 70
+      },
+      "bggRank": 38,
+      "bggRating": 7.8455,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "cardDriven": true,
+        "drafting": true,
+        "actionSelection": true,
+        "dice": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 251247,
+      "alias": "",
+      "nameEn": "Barrage",
+      "nameZh": "强国争坝",
+      "year": 2019,
+      "weight": 4.1141,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          4
+        ],
+        "recommended": [
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 90,
+        "max": 180
+      },
+      "bggRank": 40,
+      "bggRating": 7.8374,
+      "userRating": 6.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "workerPlacement": true,
+        "engineBuilding": true,
+        "resourceManagement": true,
+        "routeBuilding": true,
+        "economic": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 321608,
+      "alias": "领国者",
+      "nameEn": "Hegemony: Lead Your Class to Victory",
+      "nameZh": "領國者：帶領你的人民邁向勝利",
+      "year": 2023,
+      "weight": 4.2562,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "best": [
+          4
+        ],
+        "recommended": [
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 90,
+        "max": 180
+      },
+      "bggRank": 41,
+      "bggRating": 7.823,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "workerPlacement": true,
+        "cardDriven": true,
+        "economic": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 284378,
+      "alias": "看板：电动汽车",
+      "nameEn": "Kanban EV",
+      "nameZh": "看板EV",
+      "year": 2020,
+      "weight": 4.2902,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 180
+      },
+      "bggRank": 42,
+      "bggRating": 7.8076,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "workerPlacement": true,
+        "cardDriven": true,
+        "economic": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 199792,
+      "alias": "",
+      "nameEn": "Everdell",
+      "nameZh": "仙境幽谷",
+      "year": 2018,
+      "weight": 2.8337,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 10,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 40,
+        "max": 80
+      },
+      "bggRank": 43,
+      "bggRating": 7.8065,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "workerPlacement": true,
+        "engineBuilding": true,
+        "cardDriven": true,
+        "drafting": true,
+        "resourceManagement": true,
+        "economic": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 183394,
+      "alias": "",
+      "nameEn": "Viticulture Essential Edition",
+      "nameZh": "葡萄酒庄园精华版",
+      "year": 2015,
+      "weight": 2.9027,
+      "players": {
+        "min": 1,
+        "max": 6,
+        "best": [
+          3,
+          4
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "age": {
+        "min": 13,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 45,
+        "max": 90
+      },
+      "bggRank": 45,
+      "bggRating": 7.8058,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "workerPlacement": true,
+        "engineBuilding": true,
+        "cardDriven": true,
+        "resourceManagement": true,
+        "economic": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 366013,
+      "alias": "",
+      "nameEn": "Heat: Pedal to the Metal",
+      "nameZh": "火爆狂飙：全速前进",
+      "year": 2022,
+      "weight": 2.2024,
+      "players": {
+        "min": 1,
+        "max": 6,
+        "best": [
+          5,
+          6
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "age": {
+        "min": 10,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 60
+      },
+      "bggRank": 47,
+      "bggRating": 7.7955,
+      "userRating": 5.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true,
+        "deckBuilding": true,
+        "routeBuilding": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 175914,
+      "alias": "肥肠面",
+      "nameEn": "Food Chain Magnate",
+      "nameZh": "快餐大亨",
+      "year": 2015,
+      "weight": 4.1848,
+      "players": {
+        "min": 2,
+        "max": 5,
+        "best": [
+          3,
+          4
+        ],
+        "recommended": [
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 120,
+        "max": 240
+      },
+      "bggRank": 50,
+      "bggRating": 7.7751,
+      "userRating": 5.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "drafting": true,
+        "resourceManagement": true,
+        "tilePlacement": true,
+        "economic": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 414317,
+      "alias": "",
+      "nameEn": "Harmonies",
+      "nameZh": "自然和弦",
+      "year": 2024,
+      "weight": 2.0112,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          2,
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 10,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 45
+      },
+      "bggRank": 55,
+      "bggRating": 7.7541,
+      "userRating": 5.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "drafting": true,
+        "tilePlacement": true,
+        "actionSelection": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 383179,
+      "alias": "大创造时代",
+      "nameEn": "Age of Innovation",
+      "nameZh": "神秘大地：大創造時代",
+      "year": 2023,
+      "weight": 4.2689,
+      "players": {
+        "min": 1,
+        "max": 5,
+        "best": [
+          4
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 40,
+        "max": 200
+      },
+      "bggRank": 56,
+      "bggRating": 7.754,
+      "userRating": 5.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "resourceManagement": true,
+        "tilePlacement": true,
+        "routeBuilding": true,
+        "economic": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 3076,
+      "alias": "",
+      "nameEn": "Puerto Rico",
+      "nameZh": "波多黎各",
+      "year": 2002,
+      "weight": 3.2663,
+      "players": {
+        "min": 3,
+        "max": 5,
+        "best": [
+          4
+        ],
+        "recommended": [
+          3,
+          4,
+          5
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 90,
+        "max": 150
+      },
+      "bggRank": 57,
+      "bggRating": 7.7531,
+      "userRating": 3.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "drafting": true,
+        "economic": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 184267,
+      "alias": "",
+      "nameEn": "On Mars",
+      "nameZh": "火星之上",
+      "year": 2020,
+      "weight": 4.6261,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 90,
+        "max": 150
+      },
+      "bggRank": 58,
+      "bggRating": 7.7409,
+      "userRating": 6.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "workerPlacement": true,
+        "engineBuilding": true,
+        "resourceManagement": true,
+        "tilePlacement": true,
+        "economic": true,
+        "actionSelection": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 295947,
+      "alias": "",
+      "nameEn": "Cascadia",
+      "nameZh": "卡斯卡迪亚之旅",
+      "year": 2021,
+      "weight": 1.8418,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          2,
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 10,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 45
+      },
+      "bggRank": 60,
+      "bggRating": 7.7352,
+      "userRating": 7.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "drafting": true,
+        "tilePlacement": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 31260,
+      "alias": "",
+      "nameEn": "Agricola",
+      "nameZh": "农场主",
+      "year": 2007,
+      "weight": 3.6353,
+      "players": {
+        "min": 1,
+        "max": 5,
+        "best": [
+          3,
+          4
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 150
+      },
+      "bggRank": 64,
+      "bggRating": 7.7249,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "workerPlacement": true,
+        "engineBuilding": true,
+        "drafting": true,
+        "tilePlacement": true,
+        "economic": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 240980,
+      "alias": "染.钟楼谜团 aka.染血钟楼",
+      "nameEn": "Blood on the Clocktower",
+      "nameZh": "染.钟楼谜团",
+      "year": 2022,
+      "weight": 3.0365,
+      "players": {
+        "min": 6,
+        "max": 21,
+        "best": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "recommended": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "age": {
+        "min": 15,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 120
+      },
+      "bggRank": 67,
+      "bggRating": 7.7153,
+      "userRating": 10.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 161533,
+      "alias": "",
+      "nameEn": "Lisboa",
+      "nameZh": "里斯本",
+      "year": 2017,
+      "weight": 4.5659,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 120
+      },
+      "bggRank": 69,
+      "bggRating": 7.7105,
+      "userRating": 7.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "cardDriven": true,
+        "drafting": true,
+        "tilePlacement": true,
+        "economic": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 371942,
+      "alias": "",
+      "nameEn": "The White Castle",
+      "nameZh": "姬路城",
+      "year": 2023,
+      "weight": 3.0562,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 80,
+        "max": 80
+      },
+      "bggRank": 71,
+      "bggRating": 7.6871,
+      "userRating": 5.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "workerPlacement": true,
+        "engineBuilding": true,
+        "cardDriven": true,
+        "drafting": true,
+        "resourceManagement": true,
+        "economic": true,
+        "actionSelection": true,
+        "dice": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 2651,
+      "alias": "电力公司",
+      "nameEn": "Power Grid",
+      "nameZh": "電力会社",
+      "year": 2004,
+      "weight": 3.2461,
+      "players": {
+        "min": 2,
+        "max": 6,
+        "best": [
+          4,
+          5
+        ],
+        "recommended": [
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 120,
+        "max": 120
+      },
+      "bggRank": 73,
+      "bggRating": 7.6827,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "resourceManagement": true,
+        "routeBuilding": true,
+        "economic": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 126163,
+      "alias": "",
+      "nameEn": "Tzolk'in: The Mayan Calendar",
+      "nameZh": "卓尔金历：玛雅日历",
+      "year": 2012,
+      "weight": 3.6648,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "best": [
+          4
+        ],
+        "recommended": [
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 13,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 90,
+        "max": 90
+      },
+      "bggRank": 74,
+      "bggRating": 7.6827,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "workerPlacement": true,
+        "engineBuilding": true,
+        "routeBuilding": true,
+        "economic": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 367966,
+      "alias": "",
+      "nameEn": "Endeavor: Deep Sea",
+      "nameZh": "奋进号：深海",
+      "year": 2024,
+      "weight": 2.9271,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 10,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 120
+      },
+      "bggRank": 79,
+      "bggRating": 7.6673,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "tilePlacement": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 35677,
+      "alias": "",
+      "nameEn": "Le Havre",
+      "nameZh": "港都情濃",
+      "year": 2008,
+      "weight": 3.7086,
+      "players": {
+        "min": 1,
+        "max": 5,
+        "best": [
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 150
+      },
+      "bggRank": 81,
+      "bggRating": 7.658,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "workerPlacement": true,
+        "engineBuilding": true,
+        "economic": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 200680,
+      "alias": "",
+      "nameEn": "Agricola (Revised Edition)",
+      "nameZh": "农场主",
+      "year": 2016,
+      "weight": 3.4477,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          3,
+          4
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 120
+      },
+      "bggRank": 85,
+      "bggRating": 7.6489,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "workerPlacement": true,
+        "engineBuilding": true,
+        "cardDriven": true,
+        "drafting": true,
+        "tilePlacement": true,
+        "economic": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 413246,
+      "alias": "",
+      "nameEn": "Bomb Busters",
+      "nameZh": "炸弹克星",
+      "year": 2024,
+      "weight": 1.9972,
+      "players": {
+        "min": 2,
+        "max": 5,
+        "best": [
+          4
+        ],
+        "recommended": [
+          3,
+          4,
+          5
+        ]
+      },
+      "age": {
+        "min": 10,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 30
+      },
+      "bggRank": 96,
+      "bggRating": 7.6107,
+      "userRating": 7.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 359871,
+      "alias": "星海弧光",
+      "nameEn": "Arcs",
+      "nameZh": "星弧航记",
+      "year": 2024,
+      "weight": 3.4443,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "best": [
+          3,
+          4
+        ],
+        "recommended": [
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 120
+      },
+      "bggRank": 100,
+      "bggRating": 7.5956,
+      "userRating": 4.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "cardDriven": true,
+        "resourceManagement": true,
+        "actionSelection": true,
+        "dice": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 93,
+      "alias": "",
+      "nameEn": "El Grande",
+      "nameZh": "城主",
+      "year": 1995,
+      "weight": 2.9328,
+      "players": {
+        "min": 2,
+        "max": 5,
+        "best": [
+          5
+        ],
+        "recommended": [
+          3,
+          4,
+          5
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 120
+      },
+      "bggRank": 102,
+      "bggRating": 7.5922,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "cardDriven": true,
+        "drafting": true,
+        "economic": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 291453,
+      "alias": "",
+      "nameEn": "SCOUT",
+      "nameZh": "马戏星探",
+      "year": 2019,
+      "weight": 1.3879,
+      "players": {
+        "min": 2,
+        "max": 5,
+        "best": [
+          4
+        ],
+        "recommended": [
+          3,
+          4,
+          5
+        ]
+      },
+      "age": {
+        "min": 9,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 20,
+        "max": 20
+      },
+      "bggRank": 106,
+      "bggRating": 7.5816,
+      "userRating": 5.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 68448,
+      "alias": "七大奇迹",
+      "nameEn": "7 Wonders",
+      "nameZh": "七大奇蹟",
+      "year": 2010,
+      "weight": 2.3144,
+      "players": {
+        "min": 2,
+        "max": 7,
+        "best": [
+          4,
+          5
+        ],
+        "recommended": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "age": {
+        "min": 10,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 30
+      },
+      "bggRank": 117,
+      "bggRating": 7.5486,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "cardDriven": true,
+        "drafting": true,
+        "economic": true,
+        "actionSelection": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 391137,
+      "alias": "",
+      "nameEn": "Galactic Cruise",
+      "nameZh": "银河邮轮",
+      "year": 2025,
+      "weight": 3.9744,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 90,
+        "max": 150
+      },
+      "bggRank": 120,
+      "bggRating": 7.5434,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "workerPlacement": true,
+        "engineBuilding": true,
+        "cardDriven": true,
+        "drafting": true,
+        "resourceManagement": true,
+        "tilePlacement": true,
+        "routeBuilding": true,
+        "economic": true,
+        "actionSelection": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 217372,
+      "alias": "",
+      "nameEn": "大梦归唐",
+      "nameZh": "大梦归唐",
+      "year": 2022,
+      "weight": 1.9413,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "best": [
+          2,
+          4
+        ],
+        "recommended": [
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 10,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 60
+      },
+      "bggRank": 123,
+      "bggRating": 7.5363,
+      "userRating": 5.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "engineBuilding": true,
+        "cardDriven": true,
+        "deckBuilding": true,
+        "drafting": true,
+        "resourceManagement": true,
+        "tilePlacement": true
+      },
+      "status": {
+        "owned": true,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 236457,
+      "alias": "西国建筑师",
+      "nameEn": "Architects of the West Kingdom",
+      "nameZh": "西國建築師",
+      "year": 2018,
+      "weight": 2.7629,
+      "players": {
+        "min": 1,
+        "max": 5,
+        "best": [
+          4
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 80
+      },
+      "bggRank": 130,
+      "bggRating": 7.5118,
+      "userRating": 5.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "workerPlacement": true,
+        "engineBuilding": true,
+        "cardDriven": true,
+        "drafting": true,
+        "resourceManagement": true,
+        "routeBuilding": true,
+        "economic": true,
+        "actionSelection": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 396790,
+      "alias": "核子激荡 aka.伯明坝",
+      "nameEn": "Nucleum",
+      "nameZh": "核子激盪",
+      "year": 2023,
+      "weight": 4.1919,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          3,
+          4
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 150
+      },
+      "bggRank": 138,
+      "bggRating": 7.4921,
+      "userRating": 9.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "cardDriven": true,
+        "resourceManagement": true,
+        "routeBuilding": true,
+        "economic": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 102680,
+      "alias": "图拉真",
+      "nameEn": "Trajan",
+      "nameZh": "圖拉真",
+      "year": 2011,
+      "weight": 3.6255,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "best": [
+          4
+        ],
+        "recommended": [
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 120
+      },
+      "bggRank": 148,
+      "bggRating": 7.4641,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "cardDriven": true,
+        "drafting": true,
+        "actionSelection": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 391163,
+      "alias": "",
+      "nameEn": "Forest Shuffle",
+      "nameZh": "森森不息",
+      "year": 2023,
+      "weight": 2.2113,
+      "players": {
+        "min": 2,
+        "max": 5,
+        "best": [
+          2
+        ],
+        "recommended": [
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 10,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 40,
+        "max": 60
+      },
+      "bggRank": 153,
+      "bggRating": 7.455,
+      "userRating": 10.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "cardDriven": true,
+        "drafting": true,
+        "tilePlacement": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 178900,
+      "alias": "",
+      "nameEn": "Codenames",
+      "nameZh": "機密代號",
+      "year": 2015,
+      "weight": 1.2548,
+      "players": {
+        "min": 2,
+        "max": 8,
+        "best": [
+          6,
+          8
+        ],
+        "recommended": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "age": {
+        "min": 10,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 15,
+        "max": 15
+      },
+      "bggRank": 162,
+      "bggRating": 7.4282,
+      "userRating": 5.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 400602,
+      "alias": "",
+      "nameEn": "Civolution",
+      "nameZh": "文明演化",
+      "year": 2024,
+      "weight": 4.2563,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          2,
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 90,
+        "max": 180
+      },
+      "bggRank": 175,
+      "bggRating": 7.4004,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "engineBuilding": true,
+        "cardDriven": true,
+        "drafting": true,
+        "resourceManagement": true,
+        "tilePlacement": true,
+        "routeBuilding": true,
+        "economic": true,
+        "dice": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 128882,
+      "alias": "阿瓦隆",
+      "nameEn": "The Resistance: Avalon",
+      "nameZh": "抵抗組織：阿瓦隆",
+      "year": 2012,
+      "weight": 1.7401,
+      "players": {
+        "min": 5,
+        "max": 10,
+        "best": [
+          7,
+          8
+        ],
+        "recommended": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "age": {
+        "min": 13,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 30
+      },
+      "bggRank": 236,
+      "bggRating": 7.3018,
+      "userRating": 1.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "actionSelection": true
+      },
+      "status": {
+        "owned": true,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 822,
+      "alias": "",
+      "nameEn": "Carcassonne",
+      "nameZh": "卡卡頌",
+      "year": 2000,
+      "weight": 1.8849,
+      "players": {
+        "min": 2,
+        "max": 5,
+        "best": [
+          2,
+          3
+        ],
+        "recommended": [
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "age": {
+        "min": 7,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 45
+      },
+      "bggRank": 238,
+      "bggRating": 7.2987,
+      "userRating": 7.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "tilePlacement": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 148228,
+      "alias": "",
+      "nameEn": "Splendor",
+      "nameZh": "璀璨宝石",
+      "year": 2014,
+      "weight": 1.7754,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "best": [
+          3
+        ],
+        "recommended": [
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 10,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 30
+      },
+      "bggRank": 243,
+      "bggRating": 7.2926,
+      "userRating": 6.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "drafting": true,
+        "resourceManagement": true,
+        "economic": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 367220,
+      "alias": "",
+      "nameEn": "Sea Salt & Paper",
+      "nameZh": "海盐折纸",
+      "year": 2022,
+      "weight": 1.4756,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "best": [
+          2
+        ],
+        "recommended": [
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 8,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 45
+      },
+      "bggRank": 257,
+      "bggRating": 7.2645,
+      "userRating": 7.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true,
+        "drafting": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 375459,
+      "alias": "地下酒吧",
+      "nameEn": "Speakeasy",
+      "nameZh": "地下酒吧 Speakeasy",
+      "year": 2025,
+      "weight": 4.4207,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 50,
+        "max": 180
+      },
+      "bggRank": 262,
+      "bggRating": 7.2605,
+      "userRating": 3.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "workerPlacement": true,
+        "cardDriven": true,
+        "resourceManagement": true,
+        "economic": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 188834,
+      "alias": "",
+      "nameEn": "Secret Hitler",
+      "nameZh": "揭秘希特勒",
+      "year": 2016,
+      "weight": 1.7418,
+      "players": {
+        "min": 5,
+        "max": 10,
+        "best": [
+          8,
+          10
+        ],
+        "recommended": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "age": {
+        "min": 13,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 45,
+        "max": 45
+      },
+      "bggRank": 267,
+      "bggRating": 7.25,
+      "userRating": 4.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 295895,
+      "alias": "",
+      "nameEn": "Distilled",
+      "nameZh": "滴酒成酿",
+      "year": 2023,
+      "weight": 3.0313,
+      "players": {
+        "min": 1,
+        "max": 5,
+        "best": [
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 150
+      },
+      "bggRank": 276,
+      "bggRating": 7.2327,
+      "userRating": 7.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "cardDriven": true,
+        "resourceManagement": true,
+        "economic": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 3,
+      "alias": "",
+      "nameEn": "仙岛侠踪 (The Legend of Xiandao)",
+      "nameZh": "仙岛侠踪",
+      "year": 2024,
+      "weight": 2.4406,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "best": [
+          3
+        ],
+        "recommended": [
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 10,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 60
+      },
+      "bggRank": 284,
+      "bggRating": 7.2219,
+      "userRating": 2.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "engineBuilding": true,
+        "cardDriven": true,
+        "tilePlacement": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": true,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 192291,
+      "alias": "",
+      "nameEn": "Sushi Go Party!",
+      "nameZh": "回转寿司：派对版",
+      "year": 2016,
+      "weight": 1.324,
+      "players": {
+        "min": 2,
+        "max": 8,
+        "best": [
+          4,
+          5
+        ],
+        "recommended": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "age": {
+        "min": 8,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 20,
+        "max": 20
+      },
+      "bggRank": 287,
+      "bggRating": 7.2169,
+      "userRating": 6.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "cardDriven": true,
+        "drafting": true,
+        "actionSelection": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": true,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 329500,
+      "alias": "",
+      "nameEn": "Unconscious Mind",
+      "nameZh": "梦境潜行",
+      "year": 2024,
+      "weight": 4.0176,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          2,
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 120
+      },
+      "bggRank": 309,
+      "bggRating": 7.191,
+      "userRating": 6.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "workerPlacement": true,
+        "engineBuilding": true,
+        "drafting": true,
+        "resourceManagement": true,
+        "tilePlacement": true,
+        "actionSelection": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 277085,
+      "alias": "",
+      "nameEn": "Love Letter",
+      "nameZh": "情书",
+      "year": 2019,
+      "weight": 1.1206,
+      "players": {
+        "min": 2,
+        "max": 6,
+        "best": [
+          4
+        ],
+        "recommended": [
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "age": {
+        "min": 10,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 20,
+        "max": 20
+      },
+      "bggRank": 314,
+      "bggRating": 7.1875,
+      "userRating": 4.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 331106,
+      "alias": "",
+      "nameEn": "The Witcher: Old World",
+      "nameZh": "巫師：舊世界",
+      "year": 2023,
+      "weight": 2.879,
+      "players": {
+        "min": 1,
+        "max": 5,
+        "best": [
+          2,
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 90,
+        "max": 150
+      },
+      "bggRank": 326,
+      "bggRating": 7.171,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true,
+        "deckBuilding": true,
+        "drafting": true,
+        "resourceManagement": true,
+        "routeBuilding": true,
+        "actionSelection": true,
+        "dice": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 5,
+      "alias": "并购",
+      "nameEn": "Acquire",
+      "nameZh": "併購風雲",
+      "year": 1963,
+      "weight": 2.4888,
+      "players": {
+        "min": 2,
+        "max": 6,
+        "best": [
+          4
+        ],
+        "recommended": [
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 90,
+        "max": 90
+      },
+      "bggRank": 363,
+      "bggRating": 7.1287,
+      "userRating": 7.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "cardDriven": true,
+        "resourceManagement": true,
+        "tilePlacement": true,
+        "routeBuilding": true,
+        "economic": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 311988,
+      "alias": "",
+      "nameEn": "Frostpunk: The Board Game",
+      "nameZh": "冰汽時代: 桌面遊戲",
+      "year": 2022,
+      "weight": 4.4062,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          1,
+          2
+        ],
+        "recommended": [
+          1,
+          2
+        ]
+      },
+      "age": {
+        "min": 16,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 120,
+        "max": 150
+      },
+      "bggRank": 375,
+      "bggRating": 7.111,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "workerPlacement": true,
+        "cardDriven": true,
+        "tilePlacement": true,
+        "economic": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 336986,
+      "alias": "",
+      "nameEn": "Flamecraft",
+      "nameZh": "龍焰魔法鎮",
+      "year": 2022,
+      "weight": 2.1843,
+      "players": {
+        "min": 1,
+        "max": 5,
+        "best": [
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "age": {
+        "min": 10,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 60
+      },
+      "bggRank": 398,
+      "bggRating": 7.0903,
+      "userRating": 6.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "workerPlacement": true,
+        "engineBuilding": true,
+        "cardDriven": true,
+        "resourceManagement": true,
+        "tilePlacement": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 271601,
+      "alias": "",
+      "nameEn": "Feed the Kraken",
+      "nameZh": "险恶疑航",
+      "year": 2022,
+      "weight": 2.1731,
+      "players": {
+        "min": 5,
+        "max": 11,
+        "best": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "recommended": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 45,
+        "max": 90
+      },
+      "bggRank": 407,
+      "bggRating": 7.0824,
+      "userRating": 7.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "actionSelection": true
+      },
+      "status": {
+        "owned": true,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 384213,
+      "alias": "",
+      "nameEn": "Fromage",
+      "nameZh": "奶酪世家",
+      "year": 2024,
+      "weight": 2.375,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          4
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 45
+      },
+      "bggRank": 412,
+      "bggRating": 7.0769,
+      "userRating": 6.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "workerPlacement": true,
+        "engineBuilding": true,
+        "resourceManagement": true,
+        "economic": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 368173,
+      "alias": "",
+      "nameEn": "Let's Go! To Japan",
+      "nameZh": "來去日本！",
+      "year": 2024,
+      "weight": 2.2462,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 10,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 45,
+        "max": 60
+      },
+      "bggRank": 425,
+      "bggRating": 7.0656,
+      "userRating": 4.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "cardDriven": true,
+        "drafting": true,
+        "resourceManagement": true,
+        "routeBuilding": true,
+        "actionSelection": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 292375,
+      "alias": "长城",
+      "nameEn": "The Great Wall",
+      "nameZh": "长城：桌面游戏",
+      "year": 2021,
+      "weight": 3.9057,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 13,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 120,
+        "max": 180
+      },
+      "bggRank": 518,
+      "bggRating": 6.9851,
+      "userRating": 4.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "workerPlacement": true,
+        "engineBuilding": true,
+        "cardDriven": true,
+        "resourceManagement": true,
+        "economic": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 420087,
+      "alias": "",
+      "nameEn": "Flip 7",
+      "nameZh": "7连翻",
+      "year": 2024,
+      "weight": 1.0257,
+      "players": {
+        "min": 3,
+        "max": 18,
+        "best": [
+          5,
+          6
+        ],
+        "recommended": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "age": {
+        "min": 8,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 20,
+        "max": 20
+      },
+      "bggRank": 521,
+      "bggRating": 6.9842,
+      "userRating": 5.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 11,
+      "alias": "种豆",
+      "nameEn": "Bohnanza",
+      "nameZh": "眾豆得金",
+      "year": 1997,
+      "weight": 1.6671,
+      "players": {
+        "min": 2,
+        "max": 7,
+        "best": [
+          4,
+          5
+        ],
+        "recommended": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 45,
+        "max": 45
+      },
+      "bggRank": 546,
+      "bggRating": 6.9606,
+      "userRating": 5.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true,
+        "economic": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": true,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 404431,
+      "alias": "",
+      "nameEn": "Men-Nefer",
+      "nameZh": "孟菲斯传奇",
+      "year": 2024,
+      "weight": 3.6887,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 120
+      },
+      "bggRank": 548,
+      "bggRating": 6.9588,
+      "userRating": 5.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "workerPlacement": true,
+        "engineBuilding": true,
+        "drafting": true,
+        "resourceManagement": true,
+        "routeBuilding": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 371330,
+      "alias": "",
+      "nameEn": "Luthier",
+      "nameZh": "制琴师",
+      "year": 2025,
+      "weight": 3.7835,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 90,
+        "max": 150
+      },
+      "bggRank": 596,
+      "bggRating": 6.9213,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "workerPlacement": true,
+        "engineBuilding": true,
+        "drafting": true,
+        "economic": true,
+        "actionSelection": true,
+        "dice": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 13,
+      "alias": "卡坦岛",
+      "nameEn": "Catan",
+      "nameZh": "卡坦 : 基礎",
+      "year": 1995,
+      "weight": 2.2822,
+      "players": {
+        "min": 3,
+        "max": 4,
+        "best": [
+          4
+        ],
+        "recommended": [
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 10,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 120
+      },
+      "bggRank": 620,
+      "bggRating": 6.9036,
+      "userRating": 1.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "cardDriven": true,
+        "resourceManagement": true,
+        "tilePlacement": true,
+        "routeBuilding": true,
+        "economic": true,
+        "dice": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 133473,
+      "alias": "",
+      "nameEn": "Sushi Go!",
+      "nameZh": "迴轉壽司",
+      "year": 2013,
+      "weight": 1.1643,
+      "players": {
+        "min": 2,
+        "max": 5,
+        "best": [
+          4
+        ],
+        "recommended": [
+          3,
+          4,
+          5
+        ]
+      },
+      "age": {
+        "min": 8,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 15,
+        "max": 15
+      },
+      "bggRank": 659,
+      "bggRating": 6.8694,
+      "userRating": 6.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "cardDriven": true,
+        "drafting": true,
+        "actionSelection": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": true,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 147949,
+      "alias": "",
+      "nameEn": "One Night Ultimate Werewolf",
+      "nameZh": "一夜終極狼人",
+      "year": 2014,
+      "weight": 1.3821,
+      "players": {
+        "min": 3,
+        "max": 10,
+        "best": [
+          6,
+          7,
+          8
+        ],
+        "recommended": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "age": {
+        "min": 8,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 10,
+        "max": 10
+      },
+      "bggRank": 681,
+      "bggRating": 6.8546,
+      "userRating": 3.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "actionSelection": true
+      },
+      "status": {
+        "owned": true,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 237179,
+      "alias": "",
+      "nameEn": "Weather Machine",
+      "nameZh": "天气机器",
+      "year": 2022,
+      "weight": 4.5608,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "best": [
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 150
+      },
+      "bggRank": 709,
+      "bggRating": 6.8366,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "workerPlacement": true,
+        "tilePlacement": true,
+        "actionSelection": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 434367,
+      "alias": "",
+      "nameEn": "Nippon: Zaibatsu",
+      "nameZh": "日本：财阀",
+      "year": 2026,
+      "weight": 3.6069,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          4
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 120
+      },
+      "bggRank": 746,
+      "bggRating": 6.8086,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "workerPlacement": true,
+        "engineBuilding": true,
+        "drafting": true,
+        "resourceManagement": true,
+        "economic": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 420805,
+      "alias": "",
+      "nameEn": "Black Forest",
+      "nameZh": "翠光密林",
+      "year": 2024,
+      "weight": 3.1931,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          1,
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 120
+      },
+      "bggRank": 1034,
+      "bggRating": 6.6366,
+      "userRating": 2.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "workerPlacement": true,
+        "engineBuilding": true,
+        "tilePlacement": true,
+        "economic": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 438402,
+      "alias": "",
+      "nameEn": "Forest Shuffle: Dartmoor",
+      "nameZh": "森森不息：达特穆尔",
+      "year": 2025,
+      "weight": 2.283,
+      "players": {
+        "min": 2,
+        "max": 5,
+        "best": [
+          2,
+          3
+        ],
+        "recommended": [
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 10,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 60
+      },
+      "bggRank": 1166,
+      "bggRating": 6.5668,
+      "userRating": 9.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "cardDriven": true,
+        "drafting": true,
+        "tilePlacement": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 377061,
+      "alias": "",
+      "nameEn": "Coffee Rush",
+      "nameZh": "胡鬧咖啡廳",
+      "year": 2023,
+      "weight": 1.7917,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "best": [
+          3
+        ],
+        "recommended": [
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 8,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 30
+      },
+      "bggRank": 1256,
+      "bggRating": 6.5285,
+      "userRating": 3.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "resourceManagement": true,
+        "economic": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 406291,
+      "alias": "",
+      "nameEn": "스플렌더: Pokémon (Splendor: Pokémon)",
+      "nameZh": "璀璨宝石：宝可梦",
+      "year": 2023,
+      "weight": 1.8333,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "best": [
+          3
+        ],
+        "recommended": [
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 10,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 30
+      },
+      "bggRank": 1328,
+      "bggRating": 6.5006,
+      "userRating": 7.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "drafting": true,
+        "resourceManagement": true,
+        "economic": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 397931,
+      "alias": "",
+      "nameEn": "Deep Regrets",
+      "nameZh": "深海漁恨",
+      "year": 2025,
+      "weight": 2.3208,
+      "players": {
+        "min": 1,
+        "max": 5,
+        "best": [
+          3
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 150
+      },
+      "bggRank": 1377,
+      "bggRating": 6.4776,
+      "userRating": 5.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "resourceManagement": true,
+        "economic": true,
+        "dice": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 25821,
+      "alias": "狼人杀",
+      "nameEn": "The Werewolves of Miller's Hollow",
+      "nameZh": "米勒山谷狼人",
+      "year": 2001,
+      "weight": 1.3114,
+      "players": {
+        "min": 8,
+        "max": 18,
+        "best": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "recommended": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      "age": {
+        "min": 10,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 30
+      },
+      "bggRank": 1533,
+      "bggRating": 6.417,
+      "userRating": 1.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "actionSelection": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 9220,
+      "alias": "",
+      "nameEn": "Saboteur",
+      "nameZh": "矮人掘金",
+      "year": 2004,
+      "weight": 1.3171,
+      "players": {
+        "min": 3,
+        "max": 10,
+        "best": [
+          7,
+          8
+        ],
+        "recommended": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "age": {
+        "min": 8,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 30
+      },
+      "bggRank": 1549,
+      "bggRating": 6.4111,
+      "userRating": 6.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true,
+        "tilePlacement": true,
+        "routeBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 175549,
+      "alias": "猎巫镇 1692",
+      "nameEn": "Salem 1692",
+      "nameZh": "獵巫鎮 Salam 1692",
+      "year": 2015,
+      "weight": 2.05,
+      "players": {
+        "min": 4,
+        "max": 12,
+        "best": [
+          7,
+          8
+        ],
+        "recommended": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 25,
+        "max": 35
+      },
+      "bggRank": 1728,
+      "bggRating": 6.3426,
+      "userRating": 9.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 218530,
+      "alias": "海盗岛 1667",
+      "nameEn": "Tortuga 1667",
+      "nameZh": "海盗岛",
+      "year": 2017,
+      "weight": 2.0465,
+      "players": {
+        "min": 2,
+        "max": 9,
+        "best": [
+          5,
+          7
+        ],
+        "recommended": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 20,
+        "max": 40
+      },
+      "bggRank": 1820,
+      "bggRating": 6.313,
+      "userRating": 6.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "cardDriven": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 280136,
+      "alias": "",
+      "nameEn": "Paranormal Detectives",
+      "nameZh": "靈能偵探",
+      "year": 2019,
+      "weight": 1.6735,
+      "players": {
+        "min": 2,
+        "max": 6,
+        "best": [
+          4,
+          5
+        ],
+        "recommended": [
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 50
+      },
+      "bggRank": 1988,
+      "bggRating": 6.2659,
+      "userRating": 7.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true,
+        "routeBuilding": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 306321,
+      "alias": "",
+      "nameEn": "Night of the Ninja",
+      "nameZh": "忍者之夜",
+      "year": 2021,
+      "weight": 1.8378,
+      "players": {
+        "min": 4,
+        "max": 11,
+        "best": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "recommended": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 15,
+        "max": 30
+      },
+      "bggRank": 2265,
+      "bggRating": 6.1921,
+      "userRating": 8.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "drafting": true
+      },
+      "status": {
+        "owned": true,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 308989,
+      "alias": "黑死城 1350",
+      "nameEn": "Bristol 1350",
+      "nameZh": "黑死城",
+      "year": 2021,
+      "weight": 1.625,
+      "players": {
+        "min": 1,
+        "max": 9,
+        "best": [
+          6,
+          7,
+          8
+        ],
+        "recommended": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "age": {
+        "min": 13,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 20,
+        "max": 40
+      },
+      "bggRank": 2301,
+      "bggRating": 6.1826,
+      "userRating": 5.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "dice": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 370621,
+      "alias": "好莱坞 1947",
+      "nameEn": "Hollywood 1947",
+      "nameZh": "好莱坞1947",
+      "year": 2023,
+      "weight": 1.9474,
+      "players": {
+        "min": 1,
+        "max": 9,
+        "best": [
+          7,
+          8,
+          9
+        ],
+        "recommended": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 20,
+        "max": 40
+      },
+      "bggRank": 3405,
+      "bggRating": 5.9641,
+      "userRating": 8.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true,
+        "dice": true
+      },
+      "status": {
+        "owned": true,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 307561,
+      "alias": "",
+      "nameEn": "Steam Up: A Feast of Dim Sum",
+      "nameZh": "蒸蒸日上",
+      "year": 2023,
+      "weight": 1.5745,
+      "players": {
+        "min": 2,
+        "max": 5,
+        "best": [
+          4
+        ],
+        "recommended": [
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 8,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 40,
+        "max": 60
+      },
+      "bggRank": 3486,
+      "bggRating": 5.9513,
+      "userRating": 6.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "actionSelection": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 4174,
+      "alias": "",
+      "nameEn": "Lifeboat",
+      "nameZh": "怒海求生",
+      "year": 2002,
+      "weight": 1.7513,
+      "players": {
+        "min": 4,
+        "max": 6,
+        "best": [
+          6
+        ],
+        "recommended": [
+          5,
+          6
+        ]
+      },
+      "age": {
+        "min": 13,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 60
+      },
+      "bggRank": 3569,
+      "bggRating": 5.9404,
+      "userRating": 8.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true,
+        "drafting": true,
+        "economic": true,
+        "actionSelection": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 130877,
+      "alias": "",
+      "nameEn": "Blood Bound",
+      "nameZh": "血契猎杀",
+      "year": 2013,
+      "weight": 1.6197,
+      "players": {
+        "min": 6,
+        "max": 12,
+        "best": [
+          8,
+          10,
+          12
+        ],
+        "recommended": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 30
+      },
+      "bggRank": 3614,
+      "bggRating": 5.934,
+      "userRating": 8.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "actionSelection": true
+      },
+      "status": {
+        "owned": true,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 245197,
+      "alias": "死木镇 1876",
+      "nameEn": "Deadwood 1876",
+      "nameZh": "死木镇",
+      "year": 2018,
+      "weight": 1.8788,
+      "players": {
+        "min": 2,
+        "max": 9,
+        "best": [
+          6,
+          7
+        ],
+        "recommended": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "age": {
+        "min": 13,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 20,
+        "max": 40
+      },
+      "bggRank": 3631,
+      "bggRating": 5.9314,
+      "userRating": 5.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true,
+        "drafting": true,
+        "dice": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 168839,
+      "alias": "",
+      "nameEn": "Die Kutschfahrt zur Teufelsburg",
+      "nameZh": "魔城馬車",
+      "year": 2006,
+      "weight": 2.0667,
+      "players": {
+        "min": 3,
+        "max": 10,
+        "best": [
+          6,
+          8
+        ],
+        "recommended": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 30
+      },
+      "bggRank": 4760,
+      "bggRating": 5.8034,
+      "userRating": 7.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true
+      },
+      "status": {
+        "owned": true,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 403150,
+      "alias": "",
+      "nameEn": "World Order",
+      "nameZh": "世界秩序",
+      "year": 2026,
+      "weight": 3.7097,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "best": [
+          4
+        ],
+        "recommended": [
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 120,
+        "max": 180
+      },
+      "bggRank": 4854,
+      "bggRating": 5.7959,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "cardDriven": true,
+        "deckBuilding": true,
+        "economic": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 452264,
+      "alias": "",
+      "nameEn": "Brass: Pittsburgh",
+      "nameZh": "工业革命：匹兹堡",
+      "year": 2027,
+      "weight": 3.6857,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          4
+        ],
+        "recommended": [
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 120
+      },
+      "bggRank": 6101,
+      "bggRating": 5.7104,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "cardDriven": true,
+        "resourceManagement": true,
+        "tilePlacement": true,
+        "routeBuilding": true,
+        "economic": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 404846,
+      "alias": "",
+      "nameEn": "Bable",
+      "nameZh": "巴别",
+      "year": 2024,
+      "weight": 2.125,
+      "players": {
+        "min": 2,
+        "max": 5,
+        "best": [
+          3,
+          4,
+          5
+        ],
+        "recommended": [
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "age": {
+        "min": 10,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 20,
+        "max": 45
+      },
+      "bggRank": 8499,
+      "bggRating": 5.6199,
+      "userRating": 7.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 432834,
+      "alias": "",
+      "nameEn": "The Great Library",
+      "nameZh": "大图书馆",
+      "year": 2026,
+      "weight": 4.3448,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          2,
+          3,
+          4
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 100,
+        "max": 180
+      },
+      "bggRank": 9485,
+      "bggRating": 5.5986,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "workerPlacement": true,
+        "tilePlacement": true,
+        "routeBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 35188,
+      "alias": "",
+      "nameEn": "Legends of the Three Kingdoms",
+      "nameZh": "三国杀",
+      "year": 2007,
+      "weight": 2.2095,
+      "players": {
+        "min": 2,
+        "max": 10,
+        "best": [
+          8
+        ],
+        "recommended": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 40,
+        "max": 40
+      },
+      "bggRank": 9490,
+      "bggRating": 5.5985,
+      "userRating": 10.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "cardDriven": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": true,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 400566,
+      "alias": "",
+      "nameEn": "Blades & Rose",
+      "nameZh": "血与刃的白蔷薇",
+      "year": 2023,
+      "weight": 1.8,
+      "players": {
+        "min": 5,
+        "max": 10,
+        "best": [
+          7,
+          10
+        ],
+        "recommended": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 15,
+        "max": 25
+      },
+      "bggRank": 10854,
+      "bggRating": 5.5761,
+      "userRating": 7.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 436146,
+      "alias": "卡皮巴拉大作战",
+      "nameEn": "Capybara Crush",
+      "nameZh": "水豚大作战",
+      "year": 2026,
+      "weight": 1.75,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "best": [
+          3,
+          4
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 8,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 20,
+        "max": 45
+      },
+      "bggRank": 12179,
+      "bggRating": 5.5606,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "cardDriven": true,
+        "drafting": true,
+        "tilePlacement": true,
+        "economic": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 145344,
+      "alias": "三国杀：国战",
+      "nameEn": "San Guo Sha: Kingdom Wars",
+      "nameZh": "三国杀 国战",
+      "year": 2012,
+      "weight": 2.3333,
+      "players": {
+        "min": 2,
+        "max": 12,
+        "best": [
+          5,
+          8,
+          10
+        ],
+        "recommended": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "age": {
+        "min": 8,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 30
+      },
+      "bggRank": 12188,
+      "bggRating": 5.5605,
+      "userRating": 10.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": true,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 349944,
+      "alias": "",
+      "nameEn": "Baltic Empires: The Northern Wars of 1558-1721",
+      "nameZh": "波罗的海帝国：1558-1721北方战争",
+      "year": 2026,
+      "weight": 2.4,
+      "players": {
+        "min": 2,
+        "max": 5,
+        "best": [
+          4,
+          5
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "age": {
+        "min": 0,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 120,
+        "max": 360
+      },
+      "bggRank": 16182,
+      "bggRating": 5.5323,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "resourceManagement": true,
+        "economic": true,
+        "dice": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 23241,
+      "alias": "",
+      "nameEn": "Gravediggers",
+      "nameZh": "乱炖春秋",
+      "year": 2005,
+      "weight": 1.5,
+      "players": {
+        "min": 2,
+        "max": 5,
+        "best": [
+          4,
+          5
+        ],
+        "recommended": [
+          3,
+          4,
+          5
+        ]
+      },
+      "age": {
+        "min": 10,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 25,
+        "max": 25
+      },
+      "bggRank": 16520,
+      "bggRating": 5.5307,
+      "userRating": 4.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true,
+        "economic": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": true,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 324522,
+      "alias": "",
+      "nameEn": "Happy Dim Sum",
+      "nameZh": "欢乐点心",
+      "year": 2021,
+      "weight": 1.0,
+      "players": {
+        "min": 2,
+        "max": 5,
+        "best": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "age": {
+        "min": 8,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 15,
+        "max": 30
+      },
+      "bggRank": 16897,
+      "bggRating": 5.5291,
+      "userRating": 7.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true,
+        "drafting": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 341870,
+      "alias": "",
+      "nameEn": "The Queen's Dilemma",
+      "nameZh": "女王的困境",
+      "year": 2026,
+      "weight": 2.5,
+      "players": {
+        "min": 3,
+        "max": 6,
+        "best": [
+          6
+        ],
+        "recommended": [
+          4,
+          5,
+          6
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 90
+      },
+      "bggRank": 18028,
+      "bggRating": 5.5245,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "economic": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 402276,
+      "alias": "",
+      "nameEn": "Avalon: The Riven Veil",
+      "nameZh": "阿瓦隆：裂帷",
+      "year": 2026,
+      "weight": 3.25,
+      "players": {
+        "min": 2,
+        "max": 5,
+        "best": [
+          3,
+          4
+        ],
+        "recommended": [
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 120
+      },
+      "bggRank": 19774,
+      "bggRating": 5.5187,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "engineBuilding": true,
+        "cardDriven": true,
+        "tilePlacement": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 404286,
+      "alias": "",
+      "nameEn": "A Dream of Splendor in Song Dynasty",
+      "nameZh": "大宋百商图",
+      "year": 2023,
+      "weight": 2.0,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "best": [
+          4
+        ],
+        "recommended": [
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 8,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 45,
+        "max": 60
+      },
+      "bggRank": 20342,
+      "bggRating": 5.5169,
+      "userRating": 6.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "cardDriven": true,
+        "deckBuilding": true,
+        "drafting": true,
+        "resourceManagement": true,
+        "economic": true
+      },
+      "status": {
+        "owned": true,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 2223,
+      "alias": "",
+      "nameEn": "UNO",
+      "nameZh": "优诺牌",
+      "year": 1971,
+      "weight": 1.1001,
+      "players": {
+        "min": 2,
+        "max": 10,
+        "best": [
+          4,
+          5,
+          6
+        ],
+        "recommended": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "age": {
+        "min": 6,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 30
+      },
+      "bggRank": 30527,
+      "bggRating": 5.3528,
+      "userRating": 1.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 1406,
+      "alias": "大富翁",
+      "nameEn": "Monopoly",
+      "nameZh": "地產大亨",
+      "year": 1935,
+      "weight": 1.6189,
+      "players": {
+        "min": 2,
+        "max": 8,
+        "best": [
+          4
+        ],
+        "recommended": [
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "age": {
+        "min": 8,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 180
+      },
+      "bggRank": 30665,
+      "bggRating": 4.2937,
+      "userRating": 3.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "resourceManagement": true,
+        "routeBuilding": true,
+        "economic": true,
+        "dice": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 360333,
+      "alias": "",
+      "nameEn": "12 Monks",
+      "nameZh": "十二僧侣",
+      "year": 2026,
+      "weight": 3.5,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "best": [
+          4
+        ],
+        "recommended": [
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 120,
+        "max": 150
+      },
+      "bggRank": null,
+      "bggRating": null,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "workerPlacement": true,
+        "engineBuilding": true,
+        "resourceManagement": true,
+        "tilePlacement": true,
+        "economic": true,
+        "dice": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 430116,
+      "alias": "",
+      "nameEn": "A New Order of Samurai: Clash of Sengoku Daimyos, 1570-1580",
+      "nameZh": "天下布武",
+      "year": 2025,
+      "weight": 0.0,
+      "players": {
+        "min": 2,
+        "max": 6,
+        "best": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 180,
+        "max": 480
+      },
+      "bggRank": null,
+      "bggRating": null,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true,
+        "dice": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 409524,
+      "alias": "",
+      "nameEn": "A Taste of China",
+      "nameZh": "舌尖上的山河",
+      "year": 2022,
+      "weight": 0.0,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "best": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 6,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 30,
+        "max": 30
+      },
+      "bggRank": null,
+      "bggRating": null,
+      "userRating": 4.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "drafting": true,
+        "routeBuilding": true
+      },
+      "status": {
+        "owned": true,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 463296,
+      "alias": "",
+      "nameEn": "Forest Shuffle: Smoky Mountains",
+      "nameZh": "森森不息：大烟山",
+      "year": 2026,
+      "weight": 0.0,
+      "players": {
+        "min": 2,
+        "max": 5,
+        "best": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "age": {
+        "min": 10,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 60
+      },
+      "bggRank": null,
+      "bggRating": null,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "cardDriven": true,
+        "drafting": true,
+        "tilePlacement": true,
+        "tableauBuilding": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 400349,
+      "alias": "",
+      "nameEn": "Gossip Goose",
+      "nameZh": "以鹅传鹅",
+      "year": 2021,
+      "weight": 0.0,
+      "players": {
+        "min": 5,
+        "max": 9,
+        "best": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "age": {
+        "min": 5,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 0,
+        "max": 0
+      },
+      "bggRank": null,
+      "bggRating": null,
+      "userRating": 7.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "actionSelection": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 404279,
+      "alias": "",
+      "nameEn": "Legends of the Three Kingdoms",
+      "nameZh": "三国群英录",
+      "year": 2023,
+      "weight": 2.3333,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "best": [
+          4
+        ],
+        "recommended": [
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 9,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 45,
+        "max": 60
+      },
+      "bggRank": null,
+      "bggRating": null,
+      "userRating": 6.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "deckBuilding": true,
+        "economic": true,
+        "actionSelection": true,
+        "dice": true
+      },
+      "status": {
+        "owned": true,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 421595,
+      "alias": "",
+      "nameEn": "Lords of Heaven",
+      "nameZh": "天国领主",
+      "year": 2026,
+      "weight": 3.5,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "best": [
+          1,
+          4
+        ],
+        "recommended": [
+          1,
+          4
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 120
+      },
+      "bggRank": null,
+      "bggRating": null,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "workerPlacement": true,
+        "cardDriven": true,
+        "economic": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 316363,
+      "alias": "",
+      "nameEn": "Northern Expedition of Wuhou",
+      "nameZh": "武侯北伐：克复中原",
+      "year": 2020,
+      "weight": 0.0,
+      "players": {
+        "min": 1,
+        "max": 2,
+        "best": [
+          1,
+          2
+        ],
+        "recommended": [
+          1,
+          2
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 0,
+        "max": 0
+      },
+      "bggRank": null,
+      "bggRating": null,
+      "userRating": 10.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "dice": true
+      },
+      "status": {
+        "owned": true,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 318985,
+      "alias": "",
+      "nameEn": "Puerto Rico",
+      "nameZh": "波多黎各豪華版",
+      "year": 2020,
+      "weight": 3.0392,
+      "players": {
+        "min": 2,
+        "max": 5,
+        "best": [
+          4
+        ],
+        "recommended": [
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 70,
+        "max": 120
+      },
+      "bggRank": null,
+      "bggRating": 6.4497,
+      "userRating": 3.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "engineBuilding": true,
+        "drafting": true,
+        "economic": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 409864,
+      "alias": "",
+      "nameEn": "Silk Road",
+      "nameZh": "千年丝路",
+      "year": 2021,
+      "weight": 1.0,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "best": [
+          4
+        ],
+        "recommended": [
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 7,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 20,
+        "max": 20
+      },
+      "bggRank": null,
+      "bggRating": null,
+      "userRating": 2.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true,
+        "routeBuilding": true,
+        "economic": true,
+        "dice": true
+      },
+      "status": {
+        "owned": true,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 454127,
+      "alias": "",
+      "nameEn": "The Last In The Woods",
+      "nameZh": "林中最后一人",
+      "year": 2026,
+      "weight": 0.0,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "best": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "age": {
+        "min": 10,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 15,
+        "max": 45
+      },
+      "bggRank": null,
+      "bggRating": null,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 263403,
+      "alias": "",
+      "nameEn": "Three Kingdoms",
+      "nameZh": "三分天下",
+      "year": 2018,
+      "weight": 3.0,
+      "players": {
+        "min": 2,
+        "max": 9,
+        "best": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 20,
+        "max": 240
+      },
+      "bggRank": null,
+      "bggRating": null,
+      "userRating": 10.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "cardDriven": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 186476,
+      "alias": "",
+      "nameEn": "Triumph",
+      "nameZh": "凯旋",
+      "year": 2026,
+      "weight": 0.0,
+      "players": {
+        "min": 2,
+        "max": 5,
+        "best": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "age": {
+        "min": 14,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 60,
+        "max": 60
+      },
+      "bggRank": null,
+      "bggRating": null,
+      "userRating": null,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "areaControl": true,
+        "cardDriven": true,
+        "routeBuilding": true,
+        "dice": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": true,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    },
+    {
+      "id": 426536,
+      "alias": "",
+      "nameEn": "屁者先知 (Pizhe Xianzhi)",
+      "nameZh": "屁者先知",
+      "year": 2024,
+      "weight": 2.0,
+      "players": {
+        "min": 5,
+        "max": 10,
+        "best": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "recommended": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "age": {
+        "min": 12,
+        "recommended": null
+      },
+      "playingTime": {
+        "min": 15,
+        "max": 45
+      },
+      "bggRank": null,
+      "bggRating": null,
+      "userRating": 6.0,
+      "collection": true,
+      "bgg": true,
+      "mechanisms": {
+        "cardDriven": true,
+        "actionSelection": true
+      },
+      "status": {
+        "owned": false,
+        "previouslyOwned": false,
+        "forTrade": false,
+        "want": false,
+        "wantToPlay": false,
+        "wantToBuy": false,
+        "wishlist": false,
+        "preordered": false
+      }
+    }
+  ]
+}

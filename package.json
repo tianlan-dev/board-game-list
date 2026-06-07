@@ -1,0 +1,17 @@
+{
+  "name": "board-game-list",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static board game collection list.",
+  "author": "Tian Lan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tianlan-dev/board-game-list"
+  },
+  "scripts": {
+    "start": "serve --listen tcp://${APP_HOST:-0.0.0.0}:${APP_PORT:?APP_PORT is required} ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
