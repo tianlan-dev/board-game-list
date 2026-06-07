@@ -382,11 +382,14 @@ def fetch_things(client: BggClient, ids: list[int], batch_size: int = 20) -> dic
     return result
 
 
-def update_from_collection(games: list[dict[str, Any]], collection_items: list[dict[str, Any]]) -> tuple[int, int]:
+def update_from_collection(
+    games: list[dict[str, Any]], collection_items: list[dict[str, Any]]
+) -> tuple[int, int, list[dict[str, Any]]]:
     by_id = {game.get("id"): game for game in games if isinstance(game.get("id"), int)}
     collection_ids = {item["id"] for item in collection_items if isinstance(item.get("id"), int)}
     added = 0
     updated = 0
+    added_items: list[dict[str, Any]] = []
 
     for game in games:
         if isinstance(game.get("id"), int):
@@ -405,6 +408,7 @@ def update_from_collection(games: list[dict[str, Any]], collection_items: list[d
             games.append(game)
             by_id[game_id] = game
             added += 1
+            added_items.append({"id": game_id, "nameEn": item.get("nameEn")})
         else:
             updated += 1
 
@@ -412,7 +416,7 @@ def update_from_collection(games: list[dict[str, Any]], collection_items: list[d
             game[field] = copy.deepcopy(item.get(field))
         game["collection"] = True
 
-    return added, updated
+    return added, updated, added_items
 
 
 def update_from_things(games: list[dict[str, Any]], things: dict[int, dict[str, Any]]) -> tuple[int, int]:
@@ -501,8 +505,12 @@ def sync(args: argparse.Namespace) -> int:
                     "这通常是 BGG 还在生成 Collection 缓存。为避免误写，已中止；"
                     "稍后重试，或确认需要清空时使用 --allow-empty-collection。"
                 )
-        added, updated = update_from_collection(games, collection_items)
+        added, updated, added_items = update_from_collection(games, collection_items)
         print(f"[collection] 读取 {len(collection_items)} 条，新增 {added} 条，更新 {updated} 条")
+        if added_items:
+            print("[collection] 新增条目：")
+            for item in added_items:
+                print(f"  - {item.get('nameEn') or '(无英文名)'} (id: {item['id']})")
     else:
         for game in games:
             if not isinstance(game.get("id"), int):
